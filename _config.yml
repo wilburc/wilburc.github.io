@@ -9,7 +9,7 @@ title:               Wilbur Chen
 # tagline:             The Jekyll Butler
 url:                 wilburc.github.io
 paginate:            1
-baseurl:             ""
+baseurl:             "http://wilburc.github.io/"
 
 # Assets
 #
