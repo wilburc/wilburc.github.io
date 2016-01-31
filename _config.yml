@@ -8,7 +8,7 @@ permalink:           pretty
 title:               Wilbur Chen
 # tagline:             The Jekyll Butler
 url:                 wilburc.github.io
-paginate:            1
+paginate:            100
 baseurl:             ""
 
 # Assets
