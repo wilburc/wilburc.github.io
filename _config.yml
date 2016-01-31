@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Wilbur Chen
+# tagline:             The Jekyll Butler
+url:                 http://wwww.wilburchen.com
 paginate:            1
 baseurl:             ""
 
@@ -18,13 +18,20 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+#Pages for Nav
+nav_items:
+  About: /about
+  Work: /work
+  Writing: /writing
+
+
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Wilbur Chen
+  url:               https://twitter.com/wilbtweet
+  email:             wilburchen1@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/wilburc/wilburc.github.io
