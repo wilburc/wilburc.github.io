@@ -14,7 +14,7 @@ Currently hosted on the amazing [Jekyll](http://jekyllrb.com), and the incredibl
 
 ####Me (Wilbur)
 * [About Me](https://medium.com/@wilburchen/about-me-d1daf69ffb01#.mq33u2p0u)
-* [Resume](https://wilburchen.com/public/wilbur_chen_resume.pdf)
+* [Resume](https://wilburchen.com/wilbur_chen_resume.pdf)
 
 ####Work
 * [AnkiShare](https://medium.com/@wilburchen/ankishare-425098a86422#.761a7k8cw)
