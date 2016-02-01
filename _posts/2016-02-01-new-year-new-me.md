@@ -8,7 +8,7 @@ intro: Working on this new site — in the meantime, all the links you need are 
 
 ----
 
-Currently hosted on the amazing [Jekyll](http://jekyllrb.com), and the incredible [Poole](https://github.com/poole/poole). 
+Currently hosted on the amazing [Jekyll](http://jekyllrb.com), with the help of the incredible [Poole](https://github.com/poole/poole). 
 
 ###ANYWAY, here’s everything I have to offer, all in a handy list (for now).
 
