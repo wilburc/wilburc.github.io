@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+</article>
+
+{% if site.portfolio != empty %}
+<aside class="related">
+  <h2>Other projects</h2>
+  <ul class="related-posts">
+    {% for writeup in site.portfolio limit:3 %}
+      {% if writeup.url != page.url %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ writeup.url }}">
+            {{ writeup.title }}
+          </a>
+
+       
+          <small>{{ writeup.intro }}</small>
+         
+        </h3>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

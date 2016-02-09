@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Wilbur Chen</title>
+ <title>Wilbur</title>
  <link href="wilburc.github.io/atom.xml" rel="self"/>
  <link href="wilburc.github.io/"/>
- <updated>2016-02-01T02:55:36-06:00</updated>
+ <updated>2016-02-09T17:38:02-06:00</updated>
  <id>wilburc.github.io</id>
  <author>
    <name>Wilbur Chen</name>
@@ -21,7 +21,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Currently hosted on the amazing &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, with the help of the incredible &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Currently built with the amazing &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, with the help of the incredible &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;anyway-heres-everything-i-have-to-offer-all-in-a-handy-list-for-now&quot;&gt;ANYWAY, here’s everything I have to offer, all in a handy list (for now).&lt;/h3&gt;
 
