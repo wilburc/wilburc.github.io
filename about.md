@@ -1,30 +1,24 @@
 ---
-layout: page
-title: About
+layout: default
+title: Hey there.
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+##Hello
+I’m Wilbur — like the pig, or the airplane guy. I’m a designer who builds products to make people’s lives easier, because life is hard enough already. Interests include pleasant typography, musicals, and documentaries about food. Hobbies include discussing proper use of the word “hella,” making guacamole, and keeping up with the Kardashians.
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+![Me](/files/IMG_2154.png "Me!")
 
-There are currently two themes built on Poole:
+As a designer, I’ve worked on tools used by people such as engineers, soldiers, and students. To me, the most important aspects of a product are its value and usability. What sort of utility does it provide, and how easily is this result recognized and achieved? I particularly enjoy working on enterprise or business tools. I find them to be so tragically underdesigned, and a great opportunity to help people work better and more happily. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Right now I’m living in Chicago, where I use the Snapchat temperature filter daily, to let my friends in California know what they’re “missing out” on. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
+See you around,<br><i>-Wilbur Chen</i>
 
-Some fun facts about the setup of this project include:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+
+
+
+
