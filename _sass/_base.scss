@@ -15,9 +15,9 @@ body {
 }
 
 html {
-  font-family: "Freight-Text-Pro", Georgia, serif;
+  font-family: "Chaparral-Pro", Georgia, serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
 
   @media (min-width: 38em) {
     font-size: 24px;
@@ -25,28 +25,40 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #3A3A3A;
+  background-color: #FFF;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
+.intro-text{
+  font-weight:500;
+  font-size:1.5rem;
+  line-height:1.2;
+}
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: #268bd2;
+  color: #4451A0; 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+    
+  transition:.5s;
   text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: underline;
+    color: #70A3D0;
   }
 
   strong {
     color: inherit;
   }
 }
-
+main{
+  min-height:15rem;
+}
 img {
   display: block;
   max-width: 100%;
