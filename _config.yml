@@ -23,7 +23,15 @@ nav_items:
   About: /about
   Work: /work
   Writing: /writing
+  Resumé: /wilbur_chen_resume.pdf
 
+#Work
+collections:
+- portfolio
+
+collections:
+  portfolio:
+    output: true
 
 # About/contact
 author:
