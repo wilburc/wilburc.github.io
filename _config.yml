@@ -20,9 +20,9 @@ sass:
 
 #Pages for Nav
 nav_items:
-  About: /about
-  Work: /work
-  Writing: /writing
+  About: /about/
+  Work: /work/
+  Writing: /writing/
   Resumé: /files/wilbur_chen_resume.pdf
 
 #Work

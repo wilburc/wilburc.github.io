@@ -5,16 +5,18 @@ title: Writing
 
 <div class="posts">
   {% for post in site.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <article class="post">
+      <h1 class="post-title">
+        
         {{ post.title }}
-      </a>
-    </h1>
+       
+      </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    <p>{{ post.intro }}</p>
-<!--     {{ post.content }} -->
-  </article>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+      <p class='work-intro'>{{ post.intro }}</p>
+  <!--     {{ post.content }} -->
+    </article>
+   </a>
   {% endfor %}
 </div>

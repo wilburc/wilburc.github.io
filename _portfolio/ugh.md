@@ -1,9 +1,14 @@
 ---
 layout: writeup
 title: ugh.
-intro: Complaining, redefined. Coming soon.
+intro: Satirizing the relationship between millenials and complaining.
 details: UX Design
 ---
 
-Check out the write-up <a href='https://medium.com/@wilburchen/ugh-9c14dfe7a33d#.c4shlu9so'>here</a>, while I migrate it to this site.
+- Side-project
+- It’s stupid — I know.
+- Created with <a href='https://www.meteor.com/'>Meteor.js</a>
+- Check it out <a href='/ugh'>here</a>.
+
+### Background
 
