@@ -35,6 +35,7 @@ We were given access to the medical students mailing list, and sent out several 
 - They spend <i>a lot</i> of time studying. 
 
 ####Contextual Inquiry 
+
 We also were able to meet with some students, and watch them study (sort of). They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
 
 - Most students had thousands of cards in their libraries
