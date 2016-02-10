@@ -9,7 +9,7 @@ details: UX Design
 - 9-month duration
 - I was responsible for design, in our group of 5.
 
-####Background
+#### Background
 
 Our client, a student in medical school, wanted a way for students to easily share the <i>best</i> <a href='http://ankisrs.net'>Anki</a> flash cards. At the time, students had to personally ask other students to send them their decks. Current issues they faced:
 
