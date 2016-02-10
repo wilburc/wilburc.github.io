@@ -4,7 +4,7 @@
  <title>Wilbur</title>
  <link href="wilburc.github.io/atom.xml" rel="self"/>
  <link href="wilburc.github.io/"/>
- <updated>2016-02-09T21:06:15-06:00</updated>
+ <updated>2016-02-09T22:19:49-06:00</updated>
  <id>wilburc.github.io</id>
  <author>
    <name>Wilbur Chen</name>
@@ -19,11 +19,7 @@
    <id>wilburc.github.io/2016/02/01/new-year-new-me</id>
    <content type="html">&lt;p&gt;I’ve gone through so many versions of a personal website within the past 12 months. It’s not that I’m that picky or anything, but things have to be &lt;i&gt;perfect&lt;/i&gt;.&lt;/p&gt;
 
-&lt;p&gt;And frankly, all the ones in the past were really bad.&lt;/p&gt;
-
-&lt;p&gt;This new site is built with the amazing &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, and with the added help of the equally amazing &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt; template. Many thanks.&lt;/p&gt;
-
-&lt;p&gt;I know it might not seem like it given how poor my writing is, but I really do enjoy it. That, and I always seem to forget things and really should put down my thoughts and ideas. I’ll be writing posts every now and then for both myself and whoever’s reading.&lt;/p&gt;
+&lt;p&gt;And all the past ones sucked, too.&lt;/p&gt;
 
 &lt;p&gt;Happy New Year!&lt;br /&gt;&lt;i&gt;-Wilbur Chen&lt;/i&gt;&lt;/p&gt;
 </content>
