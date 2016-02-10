@@ -4,6 +4,7 @@ title: Hey there.
 ---
 
 ##Hello
+
 I’m Wilbur — like the pig, or the airplane guy. I’m a designer who builds products to make people’s lives easier, because life is hard enough already. Interests include pleasant typography, musicals, and documentaries about food. Hobbies include discussing proper use of the word “hella,” making guacamole, and keeping up with the Kardashians.
 
 ![Me](/files/IMG_2154.png "Me!")
