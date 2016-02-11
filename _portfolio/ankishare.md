@@ -11,7 +11,7 @@ details: UX Design
 
 ### Background
 
-Our client, a student in medical school, wanted a way for students to easily share the <i>best</i> <a href='http://ankisrs.net'>Anki</a> flash cards. At the time, students had to personally ask other students to send them their decks. Current issues they faced:
+Our client, a student in medical school, wanted a way for students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards. Current issues they faced:
 
 - Deck availability/variety limited to who you knew
 - Awkward to ask peers for their study materials
@@ -21,11 +21,25 @@ While the final product would be up to us to design, our client presented us wit
 
 > “Imagine a collaborative app that has everyone’s flashcards, and it has an algorithm that magically picks out the ‘best’ cards for any given category, curating them into ‘master decks’.”
 
-We mindlessly nodded in agreement, not even giving the term “magically” a second thought. A happy client makes a happy professor, which results in good grades and makes happy students. 
+We mindlessly nodded in agreement, not even giving the term “magically” a second thought.
+
+### Constraints
+
+At the beginning of and throughout our research, we identified the constraints to our design and development.
+
+- (Very) limited technical expertise
+- Anki cards have a unique and difficult to manage file type
+- Source code for Anki desktop/mobile/web app unavailable
 
 ### Research & Requirements
 
-Thankfully, we knew to start with research. Looking back, the research helped us immensely in getting out of the circles that we were walking in, not knowing how to make decisions.
+We started with research, which involved getting to know both the users and the Anki software that we would be building for.
+
+#### Anki Software
+We downloaded the Anki desktop/mobile applications, and found some decks to play around with. 
+
+- Anki decks must be added to a user’s library within the <i>desktop</i> app, and can be synced to devices from there
+- There is a built-in learning algorithm (hence its popularity with students, as we later confirmed)
 
 #### Surveys
 We were given access to the medical students mailing list, and sent out several surveys throughout the duration of the project. We used surveys to learn about general habits and trends throughout the student body, both validating and challenging our ideas.
@@ -35,7 +49,6 @@ We were given access to the medical students mailing list, and sent out several 
 - They spend <i>a lot</i> of time studying. 
 
 #### Contextual Inquiry 
-
 We also were able to meet with some students, and watch them study (sort of). They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
 
 - Most students had thousands of cards in their libraries
