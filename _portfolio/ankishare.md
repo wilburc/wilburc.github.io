@@ -83,7 +83,7 @@ I looked to real-world products that do the same thing. Communities where the au
 
 We began to question if this was the right choice: we want to alleviate all their pain-points in getting cards, so they can spend more time doing the actual studying. With this in mind, would crowdsourcing, having them spend more time with our product and less time studying, be the solution?	
 
-Almost as a compromise, I suggested simply tracking the # of hits a deck gets, as a proxy for its popularity, and by extension, quality. While bbviously not as accurate as other methods, but I felt that it was a decision that needed to be made.
+Almost as a compromise, I suggested simply tracking the # of hits a deck gets, as a proxy for its popularity, and by extension, quality. While obviously not as accurate as other methods, but I felt that it was a decision that needed to be made.
 
 #### Repository Structure
 During that ordeal, we were also thinking of ways to structure our deck “repository.” Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s anatomy final,” or “Histology 101, Week 3.” This translated into us needing an intuitive, precise, structure that could let students really lock-in on what they had in mind.
