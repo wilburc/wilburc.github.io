@@ -10,7 +10,7 @@ Still migrating onto this site. Check out the write-up <a href='https://medium.c
 - Weekend side-project
 - It’s stupid — I know.
 
-# Background
+<!-- # Background
 
 There’s no doubting the stress-relieving, cathartic value in complaining or confession. Whether it be in a church confessional, face-to-face, or online, there are probably some psychological studies regarding the positive effects it has on one’s mental state.
 
@@ -50,7 +50,7 @@ Chat-logs could be sent to one’s e-mail, for storage/organization/sharing with
 
 
 
-
+ -->
 
 
 
