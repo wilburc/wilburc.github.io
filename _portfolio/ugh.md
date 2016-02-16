@@ -62,7 +62,7 @@ To emulate these experiences, I simply created a separate landing page and a con
 
 Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I love how it started from a stupid idea into a real, working application, and has a funny story behind its conception.
 
-You can vent to “SympathyBot” (name not final) [here](/ugh). 
+You can vent to “SympathyBot” <a href='/ugh' target='_blank'>here</a>.
 
 
 
