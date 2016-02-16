@@ -5,8 +5,8 @@ intro: Satirizing the relationship between millenials and complaining.
 details: UX Design
 ---
 
-- Weekend side-project
-- It’s stupid — I know.
+- Weekend project
+- It’s stupid — I already know that.
 
 # Background
 
@@ -29,12 +29,13 @@ So I though it would be *hilarious* to make a bot to complain to — one that do
 I described the idea as “SmarterChild meets Online Diaries.” 
 
 ### Goals
+This product provides: 
+- A safe, confidential place for anyone to complain about anything.
+- Stress-relief
+- Sympathy
+- Laughter and eye-rolling
 
-- Provide a safe, confidential place for anyone to complain about anything.
-- Provide stress-relief
-- Provide sympathy
-
-All while satirizing the so-called online rant of the millenial.
+All while satirizing the so-called online rant of the millenial — canned, insincere responses at set intervals. 
 
 I mocked-up my idea in Balsamiq. It included sliders for the bot’s “personality,” as well as an on/off switch.
 
@@ -60,7 +61,9 @@ To emulate these experiences, I simply created a separate landing page and a con
 
 # Final Product
 
-Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I love how it started from a stupid idea into a real, working application, and has a funny story behind its conception.
+Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I love how it started from a stupid idea into a real, working application, and has a funny story behind its conception. 
+
+Built with love and <a href='https://www.meteor.com/'>Meteor JS</a>. 
 
 You can vent to “SympathyBot” <a href='/ugh' target='_blank'>here</a>.
 
