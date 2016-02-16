@@ -30,12 +30,13 @@ I described the idea as “SmarterChild meets Online Diaries.”
 
 ### Goals
 This product provides: 
+
 - A safe, confidential place for anyone to complain about anything.
 - Stress-relief
 - Sympathy
 - Laughter and eye-rolling
 
-All while satirizing the so-called online rant of the millenial — canned, insincere responses at set intervals. 
+All while satirizing the so-called online rant of the millenial — *canned, insincere responses at set intervals*. 
 
 I mocked-up my idea in Balsamiq. It included sliders for the bot’s “personality,” as well as an on/off switch.
 
@@ -65,7 +66,7 @@ Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it a
 
 Built with love and <a href='https://www.meteor.com/'>Meteor JS</a>. 
 
-You can vent to “SympathyBot” <a href='/ugh' target='_blank'>here</a>.
+You can vent to “SympathyBot” (name subject to change) <a href='/ugh' target='_blank'>here</a>.
 
 
 
