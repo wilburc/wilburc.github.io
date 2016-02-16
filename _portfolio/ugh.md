@@ -12,7 +12,7 @@ details: UX Design
 
 There’s no doubting the stress-relieving, cathartic value in complaining or confession. 
 
-However, as *millenials*, we’ve fostered a culture around it. We love it. It’s not uncommon for someone to just, for the lack of a better term, go *off*, going on about the trivialities of the day. 
+However, as *millenials*, we’ve fostered a culture around it. We love it — it’s not uncommon for someone to just, for the lack of a better term, go *off*, listing the trivialities of the day. 
 
 ![ugh background](/files/ugh_background.png "ugh. background")
 
@@ -24,7 +24,9 @@ Meanwhile, the person being complained to is indifferent and defaults to generic
 
 # Make a thing
 
-So I though it would be hilarious to make a bot to complain to — one that doesn’t try to empathize with you or be your therapist (like *Siri* — gross), but just listen to you and sympathize. It validates your complaints regardless of validity — it doesn’t do any more than you want.
+I though it would be hilarious to make a bot to complain to — one that doesn’t try to empathize with you or be your therapist (like *Siri* — gross), but just listen to you and sympathize. It validates your complaints regardless of validity — it doesn’t do any more than you want.
+
+On a more serious note, I did want to create a safe space where people having difficulty with bottled-up feelings could express themselves. 
 
 I described the idea as “SmarterChild meets Online Diaries.” 
 
@@ -50,7 +52,7 @@ People thought it was pretty funny but also really dumb — which was totally fi
 
 One thing that people did mention though, was that they would still be hestitant to really ”chat” with this bot, saying it wasn’t “secure,” or “trustworthy.” 
 
-In terms of actual security, I don’t know much about how privacy and secure storage of data works online. However, as I was aiming for a prototype, I was more interested in security from an emotional standpoint. 
+In terms of actual security, I don’t know much about how privacy and secure storage of data works online. However, as I was aiming for a prototype, I was more interested in security in an emotional sense. 
 
 ### Promoting confidentiality and truth
 
@@ -64,7 +66,7 @@ To emulate these experiences, I simply created a separate landing page and a con
 
 Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I love how it started from a stupid idea into a real, working application, and has a funny story behind its conception. 
 
-Built with love and <a href='https://www.meteor.com/'>Meteor JS</a>. 
+Built with love, but mostly <a href='https://www.meteor.com/'>Meteor JS</a>. 
 
 You can vent to “SympathyBot” (name not final) <a href='/ugh' target='_blank'>here</a>.
 
