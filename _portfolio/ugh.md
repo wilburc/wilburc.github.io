@@ -5,12 +5,10 @@ intro: Satirizing the relationship between millenials and complaining.
 details: UX Design
 ---
 
-Still migrating onto this site. Check out the write-up <a href='https://medium.com/@wilburchen/ugh-9c14dfe7a33d#.1jvcjnid4'>here</a>.
-
 - Weekend side-project
 - It’s stupid — I know.
 
-<!-- # Background
+# Background
 
 There’s no doubting the stress-relieving, cathartic value in complaining or confession. Whether it be in a church confessional, face-to-face, or online, there are probably some psychological studies regarding the positive effects it has on one’s mental state.
 
@@ -38,7 +36,7 @@ I described the idea as “SmarterChild meets Online Diaries.”
 
 All while satirizing the so-called online rant of the millenial.
 
-I quickly mocked-up my idea in Balsamiq. It included sliders to toggle the bot’s “personality,“ as well as a toggle to turn it on or off.
+I mocked-up my idea in Balsamiq. It included sliders for the bot’s “personality,” as well as an on/off switch.
 
 ![ugh initial mockup](/files/ugh_initial.png "ugh. initial mockup")
 
@@ -46,11 +44,40 @@ Chat-logs could be sent to one’s e-mail, for storage/organization/sharing with
 
 # Feedback
 
+People thought it was pretty funny but also really dumb — which was totally fine with me.
+
+One thing that people did mention though, was that they would still be hestitant to really ”chat” with this bot, saying it wasn’t “secure,” or “trustworthy.” 
+
+In terms of actual security, I don’t know much about how privacy and secure storage of data works online. However, as I was aiming for a prototype, I was more interested in security from an emotional standpoint. 
+
+### Promoting confidentiality and truth
+
+One of my favorite movies is the classic, [*The Princess Bride (1987)*](http://www.imdb.com/title/tt0093779/). Something quite unique about the movie is how the main story is “framed” by the scenes from Ben Savage’s character’s bedroom. While they may seem unnecessary, they help the viewer suspend disbelief, immersing themselves in this fantastic world. Similarly, a confessional in a church’s walls, apart from creating anonymity, isolates the subject in a world that they enter and then leave, framing this experience and removing the actual confession from the rest of their life.
+
+To emulate these experiences, I simply created a separate landing page and a conclusion page. The goal was to represent the chat as a separated experience, removing hesitation and the judgments of real life.
+
+![ugh framed experience](/files/ugh_landing_end.png "ugh. with landing and conclusion page")
+
+# Final Product
+
+Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I love how it started from a stupid idea into a real, working application, and has a funny story behind its conception.
+
+You can vent to “SympathyBot” (name not final) [here](/ugh). 
 
 
 
 
- -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
