@@ -10,13 +10,13 @@ details: UX Design
 
 # Background
 
-There’s no doubting the stress-relieving, cathartic value in complaining or confession. Whether it be in a church confessional, face-to-face, or online, there are probably some psychological studies regarding the positive effects it has on one’s mental state.
+There’s no doubting the stress-relieving, cathartic value in complaining or confession. 
 
 However, as *millenials*, we’ve fostered a culture around it. We love it. It’s not uncommon for someone to just, for the lack of a better term, go *off*, going on about the trivialities of the day. 
 
 ![ugh background](/files/ugh_background.png "ugh. background")
 
-An online trend that I’ve observed (and been on both sides of) is the above example of a modern online rant. As someone who claims to only be a millenial “ironically,” I really try *not* to do this. We’re generally quite privileged in life, and don’t truly have much to complain about. I’d feel guilty going off about something insignificant, placing importance on my well-being and entitlement to sympathy. 
+Whether or not this behavior is annoying is up to you — some might find it annoying or entitled for people to complain about such insignificant things. 
 
 But sometimes people really *do* want to complain about the little frivolities.
 
@@ -24,7 +24,7 @@ Meanwhile, the person being complained to is indifferent and defaults to generic
 
 # Make a thing
 
-So I though it would be *hilarious* to make a bot to complain to — one that doesn’t try to empathize with you or be your therapist (like *Siri*), but just listen to you and sympathize. It validates your complaints regardless of validity — it doesn’t do any more than you want.
+So I though it would be hilarious to make a bot to complain to — one that doesn’t try to empathize with you or be your therapist (like *Siri* — gross), but just listen to you and sympathize. It validates your complaints regardless of validity — it doesn’t do any more than you want.
 
 I described the idea as “SmarterChild meets Online Diaries.” 
 
@@ -66,7 +66,7 @@ Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it a
 
 Built with love and <a href='https://www.meteor.com/'>Meteor JS</a>. 
 
-You can vent to “SympathyBot” (name subject to change) <a href='/ugh' target='_blank'>here</a>.
+You can vent to “SympathyBot” (name not final) <a href='/ugh' target='_blank'>here</a>.
 
 
 
