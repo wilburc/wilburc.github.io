@@ -12,13 +12,13 @@ details: UX Design
 
 There’s no doubting the stress-relieving, cathartic value in complaining or confession. 
 
-However, as *millenials*, we’ve fostered a culture around it. We love it — it’s not uncommon for someone to just, for the lack of a better term, go *off*, listing the trivialities of the day. 
+However, as *millennials*, we’ve fostered a culture around it. We love it — it’s not uncommon for someone to just, for the lack of a better term, go *off* regarding the trivialities of the day. 
 
 ![ugh background](/files/ugh_background.png "ugh. background")
 
 Whether or not this behavior is annoying is up to you — some might find it annoying or entitled for people to complain about such insignificant things. 
 
-But sometimes people really *do* want to complain about the little frivolities.
+But sometimes people really *do* want to complain about life’s frivolities.
 
 Meanwhile, the person being complained to is indifferent and defaults to generic feigned sympathy. 
 
@@ -36,7 +36,7 @@ This product provides:
 - A safe, confidential place for anyone to complain about anything.
 - Stress-relief
 - Sympathy
-- Laughter and eye-rolling
+- Eye-rolling
 
 All while satirizing the so-called online rant of the millenial — *canned, insincere responses at set intervals*. 
 
@@ -54,17 +54,17 @@ One thing that people did mention though, was that they would still be hestitant
 
 In terms of actual security, I don’t know much about how privacy and secure storage of data works online. However, as I was aiming for a prototype, I was more interested in security in an emotional sense. 
 
-### Promoting confidentiality and truth
+### Promoting confidentiality and disclosure
 
 One of my favorite movies is the classic, [*The Princess Bride (1987)*](http://www.imdb.com/title/tt0093779/). Something quite unique about the movie is how the main story is “framed” by the scenes from Ben Savage’s character’s bedroom. While they may seem unnecessary, they help the viewer suspend disbelief, immersing themselves in this fantastic world. Similarly, a confessional in a church’s walls, apart from creating anonymity, isolates the subject in a world that they enter and then leave, framing this experience and removing the actual confession from the rest of their life.
 
-To emulate these experiences, I simply created a separate landing page and a conclusion page. The goal was to represent the chat as a separated experience, removing hesitation and the judgments of real life.
+To emulate these experiences, I simply created a separate landing page and a conclusion page. The goal was to represent the chat as a separated experience, removing the hesitation and judgments of real life — the user is temporarily freed from their world. 
 
 ![ugh framed experience](/files/ugh_landing_end.png "ugh. with landing and conclusion page")
 
 # Final Product
 
-Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I love how it started from a stupid idea into a real, working application, and has a funny story behind its conception. 
+Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I still reference it every now and then in discussion regarding millennials and rant culture, and it’s always funny to show or link to people. 
 
 Built with love, but mostly <a href='https://www.meteor.com/'>Meteor JS</a>. 
 

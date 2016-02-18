@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <h1>#NewYearNewMe</h1>
+title:  NewYearNewMe
 intro: …because January doesn’t count — that was a test run. 
 ---
 

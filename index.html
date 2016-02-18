@@ -2,15 +2,33 @@
 layout: default
 title: Home
 ---
+<abbr>Latest Post</abbr>
+<div class='posts'>
+{% for post in paginator.posts limit:1 %}
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <article class="post preview">
+      <h1 class="post-title">
+        
+        {{ post.title }}
+      
+      </h1>
 
-<h6>Latest Project</h6>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+      <span class='work-intro'>{{ post.intro }}</span>
+
+    </article>
+  </a>
+  {% endfor %}
+</div> 
+
+<abbr>Latest Project</abbr>
 <div class='posts'>
 {% for post in site.portfolio limit:1%}
   <a href="{{ site.baseurl }}{{ post.url }}">
-    <article class="post">
+    <article class="post preview">
       <h1 class="post-title">
         
-          {{ post.title }}
+        {{ post.title }}
        
       </h1>
       <!-- <p>{{ post.intro }}</p> -->
@@ -18,26 +36,10 @@ title: Home
       <span class='work-intro'>{{ post.intro }}</span>
     </article> 
   </a>
-  <!-- <hr> -->
   {% endfor %}
 </div>
 
-<h6>Latest Post</h6>
-<div class='posts'>
-  {% for post in paginator.posts limit:1 %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    <p>{{ post.intro }}</p>
-
-  </article>
-  {% endfor %}
-</div> 
 
 <!-- <div class="posts">
   {% for post in paginator.posts %}
