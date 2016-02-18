@@ -70,7 +70,7 @@ Built with love, but mostly <a href='https://www.meteor.com/'>Meteor JS</a>.
 
 You can vent to “SympathyBot” (name not final) <a href='/ugh' target='_blank'>here</a>.
 
-![ugh gif](/files/ugh_example.gif "ugh usage gif")
+![ugh gif](/files/ugh_example_2.gif "ugh usage gif")
 
 
 
