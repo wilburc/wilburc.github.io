@@ -11,7 +11,7 @@ details: UX Research/Design
 
 # Background
 
-Our client, a student in medical school, wanted a way for students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards, as well as use this data to optimize decks. 
+Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards:
 
 > “The app connects everyone’s Anki accounts, pooling all their cards in the database. Students can access this database. App has algorithms that can identify the _best_ cards for any given category, consolidating them into ‘master decks.’”
 
