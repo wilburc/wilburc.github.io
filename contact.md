@@ -3,11 +3,10 @@ layout: default
 title: Contact
 ---
 
-## Email me: <a href='mailto:wilburchen1@gmail.com'>wilburchen1@gmail.com</a>
+### <a href='mailto:wilburchen1@gmail.com'>Email</a>: I’m always online and reply fast.
 
-## Twitter: <a href='http://twitter.com/wilbtweet'>@wilbtweet</a>
+### <a href='http://linkedin.com/in/wilburchen'>LinkedIn</a>: Please add me to your professional network.
 
-## LinkedIn: <a href='http://linkedin.com/in/wilburchen'>/in/wilburchen</a>
+### <a href='http://twitter.com/wilbtweet'>Twitter</a>: My slightly-filtered ramblings.
 
-## Medium: <a href='http://medium.com/@wilburchen'>@wilburchen</a>
-
+### <a href='http://medium.com/@wilburchen'>Medium</a>: Occassional writing, mostly recommendations.
