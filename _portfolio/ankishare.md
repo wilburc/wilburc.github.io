@@ -2,47 +2,49 @@
 layout: writeup
 title: AnkiShare
 intro: Providing reliable study material for medical students.
-details: UX Design
+details: UX Research/Design
 ---
 
 - Capstone Project in Informatics at U.C. Irvine
 - 9-month duration
-- I was responsible for design, in our group of 5.
+- I was responsible for the research, mockups, and user-testing.
 
 # Background
 
-Our client, a student in medical school, wanted a way for students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards. Current issues they faced:
+Our client, a student in medical school, wanted a way for students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards, as well as use this data to optimize decks. 
 
-- Deck availability/variety limited to who you knew
-- Awkward to ask peers for their study materials
-- Must be sent manually through IM/email
+> “The app connects everyone’s Anki accounts, pooling all their cards in the database. Students can access this database. App has algorithms that can identify the _best_ cards for any given category, consolidating them into ‘master decks.’”
 
-While the final product would be up to us to design, our client presented us with his vision.
+Basically, it:
 
-> “Imagine a collaborative app that has everyone’s flashcards, and it has an algorithm that magically picks out the ‘best’ cards for any given category, curating them into ‘master decks’.”
+- Connects everyone’s Anki accounts
+- Gives access to other people’s cards
+- Finds the “best cards” per category
 
-We mindlessly nodded in agreement, not even giving the term “magically” a second thought.
+He also described some pain-points he was trying to address:
 
-# Constraints
-
-At the beginning of and throughout our research, we identified the constraints to our design and development.
-
-- (Very) limited technical expertise
-- Anki cards have a unique and difficult to manage file type
-- Source code for Anki desktop/mobile/web app unavailable
+- Annoying and tedious to send flashcards (the logistics of it all)
+- Deck availability limited to who you knew (especially relevant to incoming students)
+- Awkward to ask your peers for their decks
 
 # Research & Requirements
 
-We started with research, which involved getting to know both the users and the Anki software that we would be building for.
+We started with research, which involved getting to know both the **users*** and the **Anki software** that we would be building for, to both better understand their pain-points as well as their contexts.
+
+**Our client specified that this application would be limited to students of the U.C. Irvine School of Medicine.*
 
 ## Anki Software
 We downloaded the Anki desktop/mobile applications, and found some decks to play around with. 
 
-- Anki decks must be added to a user’s library within the <i>desktop</i> app, and can be synced to devices from there
+- Software included on every incoming student’s iPad 
+- Anki decks must be added to a user’s library within the <i>desktop</i> app, and can be synced to devices from there (similar to puttings songs on your iPod via iTunes back in the day)
 - There is a built-in learning algorithm (hence its popularity with students, as we later confirmed)
+- Code for the desktop-app *not* available
 
 ## Surveys
-We were given access to the medical school’s mailing list, and sent out several surveys throughout the duration of the project. We used surveys to learn about general habits and trends throughout the student body, both validating and challenging our ideas.
+Access to all 400-ish students was available through their mailing list. This allowed us to send them surveys throughout the course of this project. 
+
+We used these to validate our assumptions and mission.
 
 - All students use Anki cards
 - Most (90%+) students shared cards with their peers
@@ -51,85 +53,96 @@ We were given access to the medical school’s mailing list, and sent out severa
 - Students often collaborated in making/improving decks
 
 ## Contextual Inquiry 
-We also were able to meet with some students, and watch them study (sort of). They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
+These surveys also helped us meet with some students. They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
 
-- Most students had thousands of cards in their libraries
+- Most students had 1,000–20,000 cards in their libraries
 - Everyone categorized/labelled their decks differently
-- Similarly, everyone’s cards were in different formats (Question on front/answer in back, picture on front/descriptions on back, etc.)
+- Similarly, everyone’s cards were in different formats*
+
+**We think of flashcards as question on the front, answer on the back. This was not the case at all. Many consisted of only images, and one or two words.*
 
 ## Personas
-With all this information and interaction with the users, we identifed two personas that these students almost all fell into: the downloader, and the uploader. 
+With this information and interaction with the users, we identifed two personas that these students almost all fell into: the **downloader**, and the **uploader**. 
 
 ![ankishare personas](/files/ankishare_personas.png "AnkiShare Personas")
 
-This resulted in the idea of two “core functionalities,” uploading and downloading.
+This resulted in the idea of our two **key functionalities**: uploading and downloading.
+
+## Research Summary
+
+- The **Value** of the product lies in two main areas:
+  1. Saves valuable time spent communicating between students and sending decks
+  2. Makes a vast wealth of resources available
+- The **User’s environment** is a combination of iPad and laptop — decks have to be imported via the desktop app, so we will be building a web-application.
+- **Anki Decks** are numerous and diverse in both content and format
+- **UCI School of Medicine** has a set curriculum — all students of any given year take the same classes
 
 # Design
  
-While we were conducting our research, we also began sketching ideas for what this product was to be, based off of our client’s initial vision.
+At this point, it was relatively clear what AnkiShare was going to be.
 
-- **Repository of cards** was a pretty simple concept to us — basically just a huge dump of cards that was neatly categorized. 
-
-- **Best Cards Algorithm** was not.
+- **Repository of cards** was a pretty simple concept to us — basically just a huge dump of cards that was nicely categorized.
+- **Best Cards Algorithm** was something else, and the greatest design challenge we faced.
 
 ## “Best Card”
- At the beginning of the project, we had identified that the technical skill amongst our team was not very strong at all. Yet, we still had ideas regarding image-recognition, machine learning, and other things that will one day take over the world. 
+ At the beginning of the project, we had identified that the technical skill amongst our team was not very strong at all. Yet, we still entertained ideas regarding image-recognition, machine learning, and other things that will one day take over the world. 
 
 Our client suggested grouping all similar/redundant cards together, and figuring out how to identify the best card for each group, aggregating all of *these* cards into the so-called ”master deck.” Something like this:
 
 - ALL CARDS
   - Anatomy 101 cards
-    - Cards asking “how many bones are in the hand?”
+    - Cards about the number of bones in the hand
     	- *Best* card about number of bones in the hand
 
 This *best* card would then be put into the *master* deck with all the other *best* cards.
 
-At this point, our research had shown that some people’s cards didn’t even use text; just figures from the textbook, or screenshots of their professor’s slides. This made text-parsing and automatically grouping that way impossible. We soon realized that we’d have to rely on humans to essentially group redundant cards together and pick the best ones manually — basically crowdsourcing.
+Our research showed that this would be impossible. Cards were in various formats, half of them not including any text. Content was generally the same, but not the formatting. It would be like comparing apples to apple pie.
 
-I looked to real-world products that do the same thing. Communities where the audience decides what deserves to be seen. <a href='http://reddit.com'>Reddit</a>’s upvote/downvote system was one that we thought about, along with a star-based rating system a la <a href='http://yelp.com'>Yelp</a>. 
+We weren’t going to give up that easily, though. While no algorithm could rank these cards, *people* could. Our *users* could. 
+
+I looked to real products that do the same thing. Communities where the audience decides what deserves to be seen. <a href='http://reddit.com'>Reddit</a>’s upvote/downvote system was one that we thought about, or something similar to a star-based rating system a la <a href='http://yelp.com'>Yelp</a>. 
 
 ![ankishare bestcard](/files/ankishare_bestcard.png "AnkiShare Best Card")
 
-Looking back, it was a little ridiculous to even entertain this idea. We began to question if this was the right choice: we want to alleviate all their pain-points in getting cards, so they can spend more time doing the actual studying. With this in mind, would crowdsourcing, having them spend *more* time with our product and *less* time studying, be the solution?	
+The mockup above is just one of *many* ideas I thought about. However, after spending way too long on this, I started to question whether or not this was even something we should do. Referring back to our initial goals and requirements, the value did *not* actually lie in this functionality. We wanted to *save* students time, not have them spend *more* time voting on cards.
 
-Almost as a compromise, I suggested simply tracking the number of times a deck is download, as a proxy for its popularity, and by extension, quality. While obviously a far cry from optimizing at the card level, it was a sacrifice that had to be made. 
+However, this was met with some resistance both within the team and from the client. It indeed was something that they really wanted, and would up the “cool” factor of the app. I never knew it had to be “cool.”
+
+As a compromise, I suggested tracking the number of times a deck is downloaded, as a proxy for its popularity, and by extension, quality. While obviously a far cry from optimizing at the card level, it was a sacrifice that I decided had to be made. 
 
 ## Repository Structure
-During that ordeal, we were also thinking of ways to structure our deck “repository.” Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s anatomy final,” or “Histology 101, Week 3.” This translated into us needing an intuitive, precise, structure that could let students easily pinpoint what they had in mind.
+During that ordeal, we were also thinking of ways to structure our deck “repository.” Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s Anatomyy final,” or “Histology 101, Week 3.” This translated into us needing an intuitive, precise, structure that could **let students easily pinpoint what they had in mind**.
 
-However, upon looking at many existing decks created by students, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as 
+However, upon looking at many existing decks created by students, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as:
 
-- Topic (Anatomy) &#65515; Sub-topic (Hands) &#65515; Professor (Jones) &#65515; Lecture (Week 2)
-- Student Year (MS1) &#65515; Quarter (Winter 2013) &#65515; Course (Anatomy 101) &#65515; Lecture (Week 2)
-- Course (Anatomy 101) &#65515; Topic (Hands) &#65515; Sub-topic (Thumbs?)
+![ankishare hierarchy](/files/ankishare_hierarchy_example.png "Ankishare Example Hierarchies")
 
-It ultimately meant that there was no one structure that could account for all these different decks. We instead decided to not categorize them at all, and implement a filter.
-
-By identifying all distinctive properties of these decks (professor, topic, lecture, etc.), we could figure out what filter fields to include. Unfortunately, this resulted in a cluttered filter, due to the massive number of courses, topics, and professors across the 4-year program. I had a theory that students only needed material for their given year, so we asked in a survey, and started asking our users during testing as well. Luckily, they confirmed that suspicion unanimously, and we were able to reduce 75% of the filter content by only showing options relevant to their given year.
+It ultimately meant that there was no one structure that could account for all these different decks. I instead decided to not categorize them at all, and implement a filter.
 
 ![ankishare filter](/files/ankishare_filter.png "AnkiShare Filter")
 
-# Core Functionality
-We were finally able to narrow down the product to a simple DropBox-esque web application, that allowed the upload and download of files. 
+A filter seems like the obvious solution, but wasn’t an option when we were still considering having “master decks.”
+
+# Key Functionality
+We were finally able to narrow down the product to a simple DropBox-esque web application, that allowed students to **upload** and **download** files. 
 
 # User Testing
 To validate our product, test its usability, and receive feedback, we scheduled several rounds of user testing with medical students. 
 
 Going in, I prepared a list of questions and tasks for students to complete. We defined success based on how quickly and easily they could perform these tasks. Watching even the most confident students struggle with the simplest of tasks was definitely a reality check for us. In addition to issues with the interface and layout, we were able to identify confusing copy, and incorrect assumptions. 
 
-- “Is ‘author’ the author of the textbook the material is from, or the student who made the cards?”
-- The filtered results appeared below the fold, much to the confusion of many students, who didn’t notice.
-- Students tried creating accounts on the log-in page, and vice-versa.
+- **Confusing terminology** in our copy. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.
+- **The Interface was confusing** to some. The most eye-opening to me was when we had a case of a <a href='https://www.nngroup.com/articles/illusion-of-completeness/'>false floor</a>. The student selected her filter fields, and the content appeared below the fold. She never noticed that it was there, and stared blankly back at me. This was fixed by including a “Filter” button instead of an auto-filter, and slightly modified sizing.
+- **Clutter on the filter** was brought up many times, and hindered our testers’ ability to quickly locate a given deck. At the time, we were including every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, I was actually right. We modified the filter to only showing the courses of the user’s year, *reducing 75% of the clutter*.
 
-
-Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. To address the usability issues, we increased/decreased emphasis on certain call-to-actions, and cleaned up our copy.
+Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. To address other usability issues, we increased/decreased emphasis on certain call-to-actions, and cleaned up our copy.
 
 ## Viewing & Editing
-While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. Card format and “style” were much more important to them than we expected. Because of this, we quickly threw together a Preview feature that allowed them to view the decks in their entirety. With this new functionality, we decided to extend it to viewing <i>and</i> editing cards, to have students collaboratively curate these “best decks” manually. 
+While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a Preview feature that allowed them to view the decks in their entirety. With this new functionality, we decided to extend it to viewing <i>and</i> editing cards, to have students collaboratively curate these “best decks” manually. 
 
 
 # Final Product
-The final product was infinitely simpler than we could have ever expected, but effectively carried out its twin core functionalities: upload and download. 
+The final product was infinitely simpler than we could have ever expected, but effectively carried out its twin key functionalities: **upload** and **download**. 
 
 ![ankishare upload](/files/ankishare_upload.png "Final Upload Form")
 
@@ -141,23 +154,23 @@ The final product was infinitely simpler than we could have ever expected, but e
 If we hadn’t seen the wide variety of deck formats, we would have likely assumed that flashcards were all Question Text/Answer Text. Luckily, we had plenty of access to real users and their files, and could make the system flexible. This also helped lead us to the “preview deck” functionality, knowing that students cared about what sort of format these decks were in before downloading. 
 
 ## Tie back to the goal
-We had some pretty interesting and ambitious ideas. The long duration of this project only made us lose focus even more, spending time on unnecessary and possibly detrimental functionality. By tying everything back to the main goal of sharing flash-cards, we were able to severely narrow down our scope and focus on our two core functions.
+We had some pretty interesting and ambitious ideas. The long duration of this project only made us lose focus even more, spending time on unnecessary and possibly detrimental functionality. By tying everything back to the main goal of sharing flash-cards, we were able to narrow down our scope and focus on our two core functions.
 
 ## Test early and often
-Several rounds of usability testing, along with surveys, allowed us to constantly validate our ideas and product, while also exposing weaknesses in AnkiShare’s usability. 
+Several rounds of user-testing, along with surveys, allowed us to constantly validate our ideas and product, while also exposing weaknesses in AnkiShare’s usability. 
 
 # Future Plans
 
 ## Visual Design
-It’s probably clear at this point that we had little to no time working on the visual design of this product. While I recognize the importance of an aesthetically pleasing product, I don’t hesitate to deliver something visually “acceptable” that works, given a deadline. Regardless, certain elements such as the typography, spacing, and color could be optimized.
+It’s probably clear at this point that we had little to no time working on the visual design of this product. While I recognize the importance of an aesthetically pleasing product, I didn’t hesitate to deliver something visually “acceptable” that worked, given a deadline. Regardless, certain elements such as the typography, spacing, and color could be optimized, to both enhance usability, scannability, and visual pleasure.
 
 ## Scalability
 While intended for and limited to medical-school students, flashcards are used by all sorts of people in many different fields. The main concept of AnkiShare is in no way restricted to medicine, and AnkiShare could potentially be expanded and scaled to help other non-medical students as well. 
 
 # Credits
-Many thanks to AnkiShare team: Jazmynn Daos, Dillon Gee, Vamsi Koduru, and Kyla Lamontagne. 
+*Endless thanks to the AnkiShare team: Jazmynn Daos, Dillon Gee, Vamsi Koduru, and Kyla Lamontagne.*
 
-# Thanks for reading!
+## Thanks for your time!
 
 
 
