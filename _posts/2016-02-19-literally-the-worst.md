@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Literally the worst.
-intro:  Despite using “literally” quite liberally, I really do mean it this time. 
+intro:  A rant — with screenshots!
 ---
 
 Few things on the internet really annoy me — but those that do, make me want to cry over their designer’s keyboards so they can never violate a user’s sanity ever again.
@@ -28,13 +28,16 @@ First of all, I have 3 iTunes accounts. Why?
 
 But that’s besides the point. Let me show you *why* I still don’t use iTunes for anything.
 
+![first step](/files/2_19_reset_pw_1.png "step 1")
+
 I guess it’s sort of my fault for not knowing how to answer my security questions, but let’s blow past that.
 
-![first step](/files/2_19_reset_pw_1.png "step 1")
+![second step](/files/2_19_reset_pw_2.png "step 2")
 
 Like I said earlier, it’s very hard to switch your country preferences — especially if you don’t know your password, obviously. Which I clearly don’t. But that’s fine, I can read it.
 
-![second step](/files/2_19_reset_pw_2.png "step 2")
+
+![third step](/files/2_19_reset_pw_3.png "step 3")
 
 My new password must be:
 
@@ -44,17 +47,22 @@ My new password must be:
 
 So not the *worst* criteria. But that’s not all.
 
-![third step](/files/2_19_reset_pw_3.png "step 3")
+![fourth step](/files/2_19_reset_pw_4.png "step 4")
+
 
 Apparently it’s too easy to guess, **despite fulfilling* all of the criteria, which are *there* to make it harder to guess. What?
 
-![fourth step](/files/2_19_reset_pw_4.png "step 4")
+![fifth step](/files/2_19_reset_pw_5.png "step 5")
+
+
 
 That’s okay — at this point, I tried a password I knew would work. The only one in my running list of passwords I use, that can be considered complicated.
 
 And obviously, because of that, it’s already been used before.
 
-![fifth step](/files/2_19_reset_pw_5.png "step 5")
+Signing off,
+*Wilbur Chen*
+
 
 
 
