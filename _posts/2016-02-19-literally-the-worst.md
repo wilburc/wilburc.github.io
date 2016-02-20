@@ -23,8 +23,8 @@ Now, you may think that the password incident above was from an old, under-desig
 First of all, I have 3 iTunes accounts. Why?
 
 1. I used to not live in the United States. It’s surprisingly difficult to switch your account country preferences
-2. I had an iTunes gift card in one of my accounts, and credits are non-transferable <abbr>AFAIK</abbr>
-3. I had to use my .edu account for something. I think.
+2. I had an iTunes gift card in one of my accounts, and credits are non-transferable, AFAIK
+3. I had to use my **.edu** account for something. I think.
 
 But that’s besides the point. Let me show you *why* I still don’t use iTunes for anything.
 
@@ -50,7 +50,7 @@ So not the *worst* criteria. But that’s not all.
 ![fourth step](/files/2_19_reset_pw_4.png "step 4")
 
 
-Apparently it’s too easy to guess, **despite fulfilling* all of the criteria, which are *there* to make it harder to guess. What?
+Apparently it’s too easy to guess, despite fulfilling all of the criteria, which are *there* to make it harder to guess. What?
 
 ![fifth step](/files/2_19_reset_pw_5.png "step 5")
 
@@ -58,9 +58,10 @@ Apparently it’s too easy to guess, **despite fulfilling* all of the criteria, 
 
 That’s okay — at this point, I tried a password I knew would work. The only one in my running list of passwords I use, that can be considered complicated.
 
-And obviously, because of that, it’s already been used before.
+And obviously, because of that, it’s already been used before and can’t be used again.
 
 Signing off,
+<br>
 *Wilbur Chen*
 
 
