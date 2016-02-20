@@ -56,7 +56,7 @@ In terms of actual security, I don’t know much about how privacy and secure st
 
 ### Promoting confidentiality and disclosure
 
-One of my favorite movies is the classic, [*The Princess Bride (1987)*](http://www.imdb.com/title/tt0093779/). Something quite unique about the movie is how the main story is “framed” by the scenes from Ben Savage’s character’s bedroom. While they may seem unnecessary, they help the viewer suspend disbelief, immersing themselves in this fantastic world. Similarly, a confessional in a church’s walls, apart from creating anonymity, isolates the subject in a world that they enter and then leave, framing this experience and removing the actual confession from the rest of their life.
+One of my favorite movies is the classic, [*The Princess Bride (1987)*](http://www.imdb.com/title/tt0093779/). Something quite unique about the movie is how the main story is “framed” by the scenes from Fred Savage’s character’s bedroom. While they may seem unnecessary, they help the viewer suspend disbelief, immersing themselves in this fantastic world. Similarly, a confessional in a church’s walls, apart from creating anonymity, isolates the subject in a world that they enter and then leave, framing this experience and removing the actual confession from the rest of their life.
 
 To emulate these experiences, I simply created a separate landing page and a conclusion page. The goal was to represent the chat as a separated experience, removing the hesitation and judgments of real life — the user is temporarily freed from their world. 
 
