@@ -52,7 +52,7 @@ We used these to validate our assumptions and mission.
 - Students study on their laptops and iPads
 - Students often collaborated in making/improving decks
 
-**This was important to us, as 
+**This was important to us, as a common argument was “isn’t most of the value in the making of the cards?” 
 
 ### Contextual Inquiry 
 These surveys also helped us meet with some students. They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
