@@ -9,7 +9,7 @@ details: UX Research/Design
 - 9-month duration
 - I was responsible for the research, mockups, and user-testing.
 
-##Background
+## Background
 
 Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards:
 
