@@ -57,3 +57,9 @@
   text-decoration:none !important;
   padding-top:7px;
 }
+
+@media only screen and (max-width : 480px){
+  .nav{
+    font-size:0.8rem;
+  }
+}
