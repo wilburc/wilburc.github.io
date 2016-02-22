@@ -3,30 +3,27 @@
 
   <head>
   <meta charset="UTF-8">
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-
-  <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>
     
-      NewYearNewMe
+      NewYearNewMe &middot; Wilbur
     
   </title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="/styles.css">
-
-  <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.ico">
-
-  <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" title="Wilbur" href="/atom.xml">
-
-  <!-- TypeKit -->
-  <script src="https://use.typekit.net/oqc8age.js"></script>
+  <script src="https://use.typekit.net/xev0wsf.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <link href="/files/zoom.js-master/css/zoom.css" rel="stylesheet">
+  <script src="/files/zoom.js-master/js/zoom.js"></script>
+  <script src="/files/zoom.js-master/js/transition.js"></script>
+
+
 </head>
 
 
@@ -34,46 +31,31 @@
 
     <div class="container content">
       <header class="masthead">
-        <h5 class="masthead-title">
-          <a href="/" title="Home" class='home-button'>Wilbur</a>
+        <a href='/'><div class='logo'>
+          <!-- <img src='/files/logo1.png' /> -->
+        </div></a>
+        <div class='nav'>
           
-            
-              &nbsp;&nbsp;&nbsp;
-              <small><a href="/about/">About</a></small>
-            
+            &nbsp;&nbsp;&nbsp;
+            <span class='nav_item'><a href="/about/">About</a></span>
           
-            
-              &nbsp;&nbsp;&nbsp;
-              <small><a href="/projects/">Projects</a></small>
-            
+            &nbsp;&nbsp;&nbsp;
+            <span class='nav_item'><a href="/projects/">Projects</a></span>
           
-            
-              &nbsp;&nbsp;&nbsp;
-              <small><a href="/writing/">Writing</a></small>
-            
+            &nbsp;&nbsp;&nbsp;
+            <span class='nav_item'><a href="/writing/">Writing</a></span>
           
-            
-              &nbsp;&nbsp;&nbsp;
-              <small><a href="/files/wilbur_chen_resume.pdf">Resumé</a></small>
-            
+            &nbsp;&nbsp;&nbsp;
+            <span class='nav_item'><a href="/files/wilbur_chen_resume.pdf">Resumé</a></span>
           
-            
-              &nbsp;&nbsp;&nbsp;
-              <small><a href="/contact/">Contact</a></small>
-            
-          
-        </h5>
-       
-         
-      
-          
-      
+        </div>
       </header>
 
       <main>
-        <article class="post">
-  <h1 class="post-title">NewYearNewMe</h1>
-  <time datetime="2016-02-01T00:00:00-06:00" class="post-date">01 Feb 2016</time>
+        <h1>NewYearNewMe</h1>
+<article class="post">
+  
+  <span datetime="2016-02-01T00:00:00-06:00" class="post-date">01 Feb 2016</span>
   <p>This site is built with <a href="http://jekyllrb.com">Jekyll</a>, on top of the  <a href="http://github.com/poole/poole">Poole</a> template.</p>
 
 <p>I may or may not be writing a post with more details behind this new personal site. But I will definitely be writing more, so stay tuned.</p>
@@ -84,29 +66,68 @@
 
 
 <aside class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
+  <h2 class='underline'>Related Posts</h2>
+  <!-- <ul class="related-posts">
     
       <li>
         <h3>
           <a href="/2016/02/19/literally-the-worst/">
             Literally the worst.
-            <small><time datetime="2016-02-19T00:00:00-06:00">19 Feb 2016</time></small>
-          </a>
+           </a>
+            <span class='deet'><time datetime="2016-02-19T00:00:00-06:00">19 Feb 2016</time></span>
+         
         </h3>
       </li>
     
-  </ul>
+  </ul> -->
+   <div class="posts">
+
+    
+      
+        <a href="/2016/02/19/literally-the-worst/">
+          <article class="post preview">
+            <span class="post-title">Literally the worst.</span>
+            <span class='deet'><time datetime="2016-02-19T00:00:00-06:00">19 Feb 2016</time></span>
+            <br>
+            <small class='work-intro'>A rant — with screenshots!</small>
+          </article> 
+        </a>
+      <!-- <hr> -->
+      
+    
+  </div>
 </aside>
 
 
       </main>
 
-      <footer>
-        <small>Wilbur Chen 2016</small>
+      <footer class="footer">
+        <small id='email'>
+          <a href='mailto:wilburchen1@gmail.com'>Email</a>
+        </small>
+        &#183;
+        <small id='twitter'>
+          <a href='http://twitter.com/wilbtweet'>Twitter</a>
+        </small>
+        &#183;
+        <small id='facebook'>
+          <a href='http://facebook.com/wilbur.chen'>Facebook</a>
+        </small>
+        &#183;
+        <small id='linkedin'>
+          <a href='http://linkedin.com/in/wilburchen'>LinkedIn</a>
+        </small>
+        &#183;
+        <small id='medium'>
+          <a href='http://medium.com/@wilburchen'>Medium</a>
+        </small>
+
+        <small style='float:right;'>
+          Wilbur Chen &copy; <time datetime="2016-02-21T22:53:12-06:00">2016</time>. 
+        </small>
       </footer>
     </div>
+
     
   </body>
-
 </html>

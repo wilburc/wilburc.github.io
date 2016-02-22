@@ -1,5 +1,4 @@
 ---
-layout: null
 # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 # only main files contain this front matter, not partials.
 ---
@@ -18,6 +17,7 @@ layout: null
 // Designed, built, and released under MIT license by @mdo. Learn more at
 // https://github.com/poole/poole.
 
+@import "variables";
 @import "base";
 @import "type";
 @import "syntax";
@@ -27,5 +27,3 @@ layout: null
 @import "posts";
 @import "pagination";
 @import "message";
-/*@import "foundation/grid";
-@import "foundation/visibility";*/

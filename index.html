@@ -2,62 +2,10 @@
 layout: default
 title: Home
 ---
-
-
-<br>
-<abbr>Latest Post</abbr>
-<div class='posts'>
-{% for post in paginator.posts limit:1 %}
-  <a href="{{ site.baseurl }}{{ post.url }}">
-    <article class="post preview">
-      <h1 class="post-title">
-        
-        {{ post.title }}
-      
-      </h1>
-
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-      <span class='work-intro'>{{ post.intro }}</span>
-
-    </article>
-  </a>
-  {% endfor %}
-</div> 
-
-<abbr>Latest Project</abbr>
-<div class='posts'>
-{% for post in site.portfolio limit:1%}
-  <a href="{{ site.baseurl }}{{ post.url }}">
-    <article class="post preview">
-      <h1 class="post-title">
-        
-        {{ post.title }}
-       
-      </h1>
-      <!-- <p>{{ post.intro }}</p> -->
-      <span class='work-details'>{{ post.details }}</span>
-      <span class='work-intro'>{{ post.intro }}</span>
-    </article> 
-  </a>
-  {% endfor %}
-</div>
-
-
-
-<!-- <div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    <p>{{ post.intro }}</p>
-
-  </article>
-  {% endfor %}
+<div class='placeholder'></div>
+<!-- <div class='tweet_container'>
+  <a class="twitter-timeline" data-width='700' data-height='500' data-tweet-limit='1' href="https://twitter.com/wilbtweet" data-widget-id="701589489039208448">Tweets by @wilbtweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div> -->
 
 <!-- <div class="pagination">

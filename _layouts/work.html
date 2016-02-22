@@ -3,20 +3,16 @@ layout: default
 title: Work
 ---
 
-
+<h2>Projects</h2>
 <div class="posts">
 
   {% for post in site.portfolio %}
   <a href="{{ site.baseurl }}{{ post.url }}">
     <article class="post preview">
-      <h1 class="post-title">
-        
-          {{ post.title }}
-       
-      </h1>
-      <!-- <p>{{ post.intro }}</p> -->
-      <span class='work-details'>{{ post.details }}</span>
-      <span class='work-intro'>{{ post.intro }}</span>
+      <span class="post-title">{{ post.title }}</span>
+      <span class='deet'>{{ post.details }}</span>
+      <br>
+      <small class='work-intro'>{{ post.intro }}</small>
     </article> 
   </a>
   <!-- <hr> -->

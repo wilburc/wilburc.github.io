@@ -15,54 +15,40 @@ body {
 }
 
 html {
-  font-family: "freight-text-pro", Georgia, serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-family: $root-font-family;
+  font-size: $root-font-size;
+  line-height: $root-line-height;
 
-  @media (min-width: 38em) {
-    font-size: 22px;
+  @media (min-width: $large-breakpoint) {
+    font-size: $large-font-size;
   }
 }
 
 body {
-  color: #3A3A3A;
-  background-color: #FFF;
+  color: $body-color;
+  background-color: $body-bg;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-.intro-text{
-  font-weight:500;
-  font-size:1.5rem;
-  line-height:1.2;
-  text-align:center;
+p a{
+  text-decoration:underline;
 }
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: #4451A0; 
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-    
-  transition:.5s;
-  text-decoration: none;
+  color:$black; 
+  text-decoration:none;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    color: #70A3D0;
+    color:$blue;
   }
 
   strong {
     color: inherit;
   }
 }
-.work-intro{
-  color:#3A3A3A !important;
-}
-main{
-  min-height:15rem;
-}
+
 img {
   display: block;
   max-width: 100%;

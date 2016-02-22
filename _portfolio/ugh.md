@@ -8,13 +8,13 @@ details: UX Design
 - Weekend project
 - It’s stupid — I already know that.
 
-# Background
+## Background
 
 There’s no doubting the stress-relieving, cathartic value in complaining or confession. 
 
 However, as *millennials*, we’ve fostered a culture around it. We love it — it’s not uncommon for someone to just, for the lack of a better term, go *off* regarding the trivialities of the day. 
 
-![ugh background](/files/ugh_background.png "ugh. background")
+<img src="/files/ugh_background.png" data-action="zoom">
 
 Whether or not this behavior is annoying is up to you — some might find it annoying or entitled for people to complain about such insignificant things. 
 
@@ -22,7 +22,7 @@ But sometimes people really *do* want to complain about life’s frivolities.
 
 Meanwhile, the person being complained to is indifferent and defaults to generic feigned sympathy. 
 
-# Make a thing
+## Make a thing
 
 I though it would be hilarious to make a bot to complain to — one that doesn’t try to empathize with you or be your therapist (like *Siri* — gross), but just listen to you and sympathize. It validates your complaints regardless of validity — it doesn’t do any more than you want.
 
@@ -42,11 +42,11 @@ All while satirizing the so-called online rant of the millenial — *canned, ins
 
 I mocked-up my idea in Balsamiq. It included sliders for the bot’s “personality,” as well as an on/off switch.
 
-![ugh initial mockup](/files/ugh_initial.png "ugh. initial mockup")
+<img src="/files/ugh_initial.png" data-action="zoom">
 
 Chat-logs could be sent to one’s e-mail, for storage/organization/sharing with friends. Otherwise, it was to be confirmed in the copy that the records would be erased forever.
 
-# Feedback
+## Feedback
 
 People thought it was pretty funny but also really dumb — which was totally fine with me.
 
@@ -60,9 +60,10 @@ One of my favorite movies is the classic, [*The Princess Bride (1987)*](http://w
 
 To emulate these experiences, I simply created a separate landing page and a conclusion page. The goal was to represent the chat as a separated experience, removing the hesitation and judgments of real life — the user is temporarily freed from their world. 
 
-![ugh framed experience](/files/ugh_landing_end.png "ugh. with landing and conclusion page")
+<img src="/files/ugh_landing_end.png" data-action="zoom">
 
-# Final Product
+
+## Final Product
 
 Despite how simple and ridiculous “ugh.” is, I’m still quite proud of it and love linking it to people as a joke, when they’re trying to vent. I still reference it every now and then in discussion regarding millennials and rant culture, and it’s always funny to show or link to people. 
 
@@ -70,7 +71,7 @@ Built with love, but mostly <a href='https://www.meteor.com/'>Meteor JS</a>.
 
 You can vent to “SympathyBot” (name not final) <a href='/ugh' target='_blank'>here</a>.
 
-![ugh gif](/files/ugh_example_2.gif "ugh usage gif")
+<img src="/files/ugh_example_2.gif" data-action="zoom">
 
 
 

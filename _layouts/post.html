@@ -1,27 +1,44 @@
 ---
 layout: default
 ---
-
+<h1>{{ page.title }}</h1>
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  
+  <span datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </article>
 
 {% if site.related_posts != empty %}
 <aside class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
+  <h2 class='underline'>Related Posts</h2>
+  <!-- <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
-            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-          </a>
+           </a>
+            <span class='deet'><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
+         
         </h3>
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
+   <div class="posts">
+
+    {% for post in site.related_posts limit:3 %}
+      {% if post.url != page.url %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <article class="post preview">
+            <span class="post-title">{{ post.title }}</span>
+            <span class='deet'><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string}}</time></span>
+            <br>
+            <small class='work-intro'>{{ post.intro }}</small>
+          </article> 
+        </a>
+      <!-- <hr> -->
+      {% endif %}
+    {% endfor %}
+  </div>
 </aside>
 {% endif %}

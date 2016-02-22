@@ -2,19 +2,17 @@
 layout: default
 title: Writing
 ---
-
+<h2>Writing</h2>
 <div class="posts">
+
   {% for post in site.posts %}
   <a href="{{ site.baseurl }}{{ post.url }}">
     <article class="post preview">
-      <h1 class="post-title">
-        
-        {{ post.title }}
-       
-      </h1>
+      <span class="post-title">{{ post.title }}</span>
 
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-      <p class='work-intro'>{{ post.intro }}</p>
+      <span datetime="{{ post.date | date_to_xmlschema }}" class="deet">{{ post.date | date_to_string }}</span>
+      <br>
+      <small class='work-intro'>{{ post.intro }}</small>
   <!--     {{ post.content }} -->
     </article>
    </a>

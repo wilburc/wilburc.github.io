@@ -3,41 +3,57 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
+  margin-top:    1rem;
+  /*padding-bottom: 1rem;*/
+  margin-bottom: 3rem;
+  border-bottom:2px solid $blue;
+  overflow:hidden;
+}
 
-  padding-top:    1rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 2rem;
-  // border-bottom:2px solid black;
+.logo{
+  height:36px;
+  width:108px;
+  float:left;
+  /*transition: all 0.5s ease;*/
+  /*-webkit-transition: background 500ms ease-out 2s;
+  -moz-transition: background 500ms ease-out 2s;
+  -o-transition: background 500ms ease-out 2s;
+  transition: background-color 500ms ease-out 2s;
+*/
+  background: url("/files/rainbow_logo.png") 0 0;
+  /*background-size:cover;*/
+
+}
+
+.logo:hover{
+  /*background: url("/files/logo_sprites.png")0 108px;*/
+  background: url("/files/rainbow_logo.png")left center;
+  animation: play 1s steps(10) infinite;
+
+  background-size:cover;
+  cursor:pointer;
+}
+@keyframes play {
+    100% { background-position: -1080px; }
 }
 
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #313131;
-  font-weight:400;
-  font-family:'freight-sans-pro', 'helvetica-neue', sans-serif;
-  /*text-transform:uppercase;*/
-  letter-spacing:1.6px;
-  a{
-    color:#313131;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    
-  transition:.5s;
-  }
-  a:hover{
-    color: #70A3D0;
-  }
-  
-  
-}
+  color: $gray-4;
+  float:left;
 
-.nav_item{
-  line-height:25px;
-}
-
-.active {
-    text-decoration:underline;
+  a {
+    color: inherit;
   }
+}
+.nav{
+  float:right;
+  font-family: 'calluna-sans', 'helvetica neue', sans-serif;
+  font-size:1rem;
+  color: #323232;
+  letter-spacing: 0.5px;
+  /*line-height: 36px;*/
+  text-decoration:none !important;
+  padding-top:7px;
+}

@@ -9,11 +9,11 @@ details: UX Research/Design
 - 9-month duration
 - I was responsible for the research, mockups, and user-testing.
 
-# Background
+##Background
 
 Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards:
 
-> “The app connects everyone’s Anki accounts, pooling all their cards in the database. Students can access this database. App has algorithms that can identify the _best_ cards for any given category, consolidating them into ‘master decks.’”
+> The app connects everyone’s Anki accounts, pooling all their cards in the database. Students can access this database. App has algorithms that can identify the _best_ cards for any given category, consolidating them into ‘master decks.’
 
 Basically, it:
 
@@ -27,13 +27,13 @@ He also described some pain-points he was trying to address:
 - Deck availability limited to who you knew (especially relevant to incoming students)
 - Awkward to ask your peers for their decks
 
-# Research & Requirements
+## Research & Requirements
 
 We started with research, which involved getting to know both the **users*** and the **Anki software** that we would be building for, to both better understand their pain-points as well as their contexts.
 
 **Our client specified that this application would be limited to students of the U.C. Irvine School of Medicine.*
 
-## Anki Software
+### Anki Software
 We downloaded the Anki desktop/mobile applications, and found some decks to play around with. 
 
 - Software included on every incoming student’s iPad 
@@ -41,7 +41,7 @@ We downloaded the Anki desktop/mobile applications, and found some decks to play
 - There is a built-in learning algorithm (hence its popularity with students, as we later confirmed)
 - Code for the desktop-app *not* available
 
-## Surveys
+### Surveys
 Access to all 400-ish students was available through their mailing list. This allowed us to send them surveys throughout the course of this project. 
 
 We used these to validate our assumptions and mission.
@@ -52,7 +52,7 @@ We used these to validate our assumptions and mission.
 - Students study on their laptops and iPads
 - Students often collaborated in making/improving decks
 
-## Contextual Inquiry 
+### Contextual Inquiry 
 These surveys also helped us meet with some students. They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
 
 - Most students had 1,000–20,000 cards in their libraries
@@ -61,14 +61,15 @@ These surveys also helped us meet with some students. They walked us through the
 
 **We think of flashcards as question on the front, answer on the back. This was not the case at all. Many consisted of only images, and one or two words.*
 
-## Personas
+### Personas
 With this information and interaction with the users, we identifed two personas that these students almost all fell into: the **downloader**, and the **uploader**. 
 
-![ankishare personas](/files/ankishare_personas.png "AnkiShare Personas")
+<img src="/files/ankishare_personas.png" data-action="zoom">
+
 
 This resulted in the idea of our two **key functionalities**: uploading and downloading.
 
-## Research Summary
+### Research Summary
 
 - The **Value** of the product lies in two main areas:
   1. Saves valuable time spent communicating between students and sending decks
@@ -77,14 +78,14 @@ This resulted in the idea of our two **key functionalities**: uploading and down
 - **Anki Decks** are numerous and diverse in both content and format
 - **UCI School of Medicine** has a set curriculum — all students of any given year take the same classes
 
-# Design
+## Design
  
 At this point, it was relatively clear what AnkiShare was going to be.
 
 - **Repository of cards** was a pretty simple concept to us — basically just a huge dump of cards that was nicely categorized.
 - **Best Cards Algorithm** was something else, and the greatest design challenge we faced.
 
-## “Best Card”
+### “Best Card”
  At the beginning of the project, we had identified that the technical skill amongst our team was not very strong at all. Yet, we still entertained ideas regarding image-recognition, machine learning, and other things that will one day take over the world. 
 
 Our client suggested grouping all similar/redundant cards together, and figuring out how to identify the best card for each group, aggregating all of *these* cards into the so-called ”master deck.” Something like this:
@@ -102,7 +103,7 @@ We weren’t going to give up that easily, though. While no algorithm could rank
 
 I looked to real products that do the same thing. Communities where the audience decides what deserves to be seen. <a href='http://reddit.com'>Reddit</a>’s upvote/downvote system was one that we thought about, or something similar to a star-based rating system a la <a href='http://yelp.com'>Yelp</a>. 
 
-![ankishare bestcard](/files/ankishare_bestcard.png "AnkiShare Best Card")
+<img src="/files/ankishare_bestcard.png" data-action="zoom">
 
 The mockup above is just one of *many* ideas I thought about. However, after spending way too long on this, I started to question whether or not this was even something we should do. Referring back to our initial goals and requirements, the value did *not* actually lie in this functionality. We wanted to *save* students time, not have them spend *more* time voting on cards.
 
@@ -115,18 +116,18 @@ During that ordeal, we were also thinking of ways to structure our deck “repos
 
 However, upon looking at many existing decks created by students, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as:
 
-![ankishare hierarchy](/files/ankishare_hierarchy_example.png "Ankishare Example Hierarchies")
+<img src="/files/ankishare_hierarchy_example.png" data-action="zoom">
 
 It ultimately meant that there was no one structure that could account for all these different decks. I instead decided to not categorize them at all, and implement a filter.
 
-![ankishare filter](/files/ankishare_filter.png "AnkiShare Filter")
+<img src="/files/ankishare_filter.png" data-action="zoom">
 
 A filter seems like the obvious solution, but wasn’t an option when we were still considering having “master decks.”
 
-# Key Functionality
+## Key Functionality
 We were finally able to narrow down the product to a simple DropBox-esque web application, that allowed students to **upload** and **download** files. 
 
-# User Testing
+## User Testing
 To validate our product, test its usability, and receive feedback, we scheduled several rounds of user testing with medical students. 
 
 Going in, I prepared a list of questions and tasks for students to complete. We defined success based on how quickly and easily they could perform these tasks. Watching even the most confident students struggle with the simplest of tasks was definitely a reality check for us. In addition to issues with the interface and layout, we were able to identify confusing copy, and incorrect assumptions. 
@@ -137,40 +138,40 @@ Going in, I prepared a list of questions and tasks for students to complete. We 
 
 Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. To address other usability issues, we increased/decreased emphasis on certain call-to-actions, and cleaned up our copy.
 
-## Viewing & Editing
+### Viewing & Editing
 While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a Preview feature that allowed them to view the decks in their entirety. With this new functionality, we decided to extend it to viewing <i>and</i> editing cards, to have students collaboratively curate these “best decks” manually. 
 
 
-# Final Product
+## Final Product
 The final product was infinitely simpler than we could have ever expected, but effectively carried out its twin key functionalities: **upload** and **download**. 
 
-![ankishare upload](/files/ankishare_upload.png "Final Upload Form")
+<img src="/files/ankishare_upload.png" data-action="zoom">
 
-![ankishare download](/files/ankishare_download.png "Final filter/download interface")
+<img src="/files/ankishare_download.png" data-action="zoom">
 
-# What we learned
+## What we learned
 
-## Design with real data/content
+### Design with real data/content
 If we hadn’t seen the wide variety of deck formats, we would have likely assumed that flashcards were all Question Text/Answer Text. Luckily, we had plenty of access to real users and their files, and could make the system flexible. This also helped lead us to the “preview deck” functionality, knowing that students cared about what sort of format these decks were in before downloading. 
 
-## Tie back to the goal
+### Tie back to the goal
 We had some pretty interesting and ambitious ideas. The long duration of this project only made us lose focus even more, spending time on unnecessary and possibly detrimental functionality. By tying everything back to the main goal of sharing flash-cards, we were able to narrow down our scope and focus on our two core functions.
 
-## Test early and often
+### Test early and often
 Several rounds of user-testing, along with surveys, allowed us to constantly validate our ideas and product, while also exposing weaknesses in AnkiShare’s usability. 
 
-# Future Plans
+## Future Plans
 
-## Visual Design
+### Visual Design
 It’s probably clear at this point that we had little to no time working on the visual design of this product. While I recognize the importance of an aesthetically pleasing product, I didn’t hesitate to deliver something visually “acceptable” that worked, given a deadline. Regardless, certain elements such as the typography, spacing, and color could be optimized, to both enhance usability, scannability, and visual pleasure.
 
-## Scalability
+### Scalability
 While intended for and limited to medical-school students, flashcards are used by all sorts of people in many different fields. The main concept of AnkiShare is in no way restricted to medicine, and AnkiShare could potentially be expanded and scaled to help other non-medical students as well. 
 
-# Credits
+## Credits
 *Endless thanks to the AnkiShare team: Jazmynn Daos, Dillon Gee, Vamsi Koduru, and Kyla Lamontagne.*
 
-## Thanks for your time!
+### Thanks for your time!
 
 
 
