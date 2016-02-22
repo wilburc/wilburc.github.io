@@ -47,10 +47,12 @@ Access to all 400-ish students was available through their mailing list. This al
 We used these to validate our assumptions and mission.
 
 - All students use Anki cards
-- Most (90%+) students shared cards with their peers
-- They spend <i>a lot</i> of time studying. 
+- Most (90%+) students shared cards with their peers*
+- They spend *a lot* of time studying. 
 - Students study on their laptops and iPads
 - Students often collaborated in making/improving decks
+
+**This was important to us, as 
 
 ### Contextual Inquiry 
 These surveys also helped us meet with some students. They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
@@ -130,17 +132,16 @@ We were finally able to narrow down the product to a simple DropBox-esque web ap
 ## User Testing
 To validate our product, test its usability, and receive feedback, we scheduled several rounds of user testing with medical students. 
 
-Going in, I prepared a list of questions and tasks for students to complete. We defined success based on how quickly and easily they could perform these tasks. Watching even the most confident students struggle with the simplest of tasks was definitely a reality check for us. In addition to issues with the interface and layout, we were able to identify confusing copy, and incorrect assumptions. 
+Going in, I prepared a list of questions and tasks for students to complete. We defined success based on how quickly and easily they could perform these tasks. Watching even the most confident students struggle with the simplest of tasks was definitely a reality check for us. In addition to issues with the interface and layout, we were able to identify confusing copy, and incorrect assumptions.  
 
-- **Confusing terminology** in our copy. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.
-- **The Interface was confusing** to some. The most eye-opening to me was when we had a case of a <a href='https://www.nngroup.com/articles/illusion-of-completeness/'>false floor</a> . The student selected her filter fields, and the content appeared below the fold. She never noticed that it was there, and stared blankly back at me. This was fixed by including a “Filter” button instead of an auto-filter, and slightly modified sizing.
+- **Ambiguous terminology** in our copy. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.
+- **The Interface was confusing** to some. The most eye-opening to me was when we had a case of a <a href='https://www.nngroup.com/articles/illusion-of-completeness/'>**_false floor_**</a>. The student selected her filter fields, and the content appeared below the fold. She never noticed that it was there, and stared blankly back at me. This was fixed by including a “Filter” action button instead of an auto-filter, and slightly modified sizing.
 - **Clutter on the filter** was brought up many times, and hindered our testers’ ability to quickly locate a given deck. At the time, we were including every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, I was actually right. We modified the filter to only showing the courses of the user’s year, *reducing 75% of the clutter*.
 
-Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. To address other usability issues, we increased/decreased emphasis on certain call-to-actions, and cleaned up our copy.
+Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. Students understood the value and basic functionality of the product. 
 
 ### Viewing & Editing
-While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a Preview feature that allowed them to view the decks in their entirety. With this new functionality, we decided to extend it to viewing <i>and</i> editing cards, to have students collaboratively curate these “best decks” manually. 
-
+While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a Preview feature that allowed them to view the decks in their entirety before downloading. With this new functionality, we this new viewing interface, the plug-in we used also afforded us to easily implement an “edit” function, promoting collaboration among the students in improving these decks.
 
 ## Final Product
 The final product was infinitely simpler than we could have ever expected, but effectively carried out its twin key functionalities: **upload** and **download**. 
@@ -163,7 +164,7 @@ Several rounds of user-testing, along with surveys, allowed us to constantly val
 ## Future Plans
 
 ### Visual Design
-It’s probably clear at this point that we had little to no time working on the visual design of this product. While I recognize the importance of an aesthetically pleasing product, I didn’t hesitate to deliver something visually “acceptable” that worked, given a deadline. Regardless, certain elements such as the typography, spacing, and color could be optimized, to both enhance usability, scannability, and visual pleasure.
+It’s probably clear at this point that we had little to no time working on the visual design of this product. While I recognize the importance of an aesthetically pleasing product, I didn’t hesitate to deliver something visually “acceptable” that worked, given a deadline. Regardless, certain elements such as the typography could be optimized to both enhance usability, scannability, and visual pleasure.
 
 ### Scalability
 While intended for and limited to medical-school students, flashcards are used by all sorts of people in many different fields. The main concept of AnkiShare is in no way restricted to medicine, and AnkiShare could potentially be expanded and scaled to help other non-medical students as well. 
