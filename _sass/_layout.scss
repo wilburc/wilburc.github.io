@@ -12,8 +12,24 @@
 
 .placeholder{
 	min-height:18rem;
+	text-align:center;
+	padding-top:3rem;
 }
 
+.landing_quote{
+	/*font-family:'calluna-sans', 'helvetica neue', sans-serif;*/
+	font-size:1.25rem;
+	/*font-style:italic;*/
+	text-align:center;
+	color:$black;
+
+}
+.landing_quote_2{
+	margin-top:1rem;
+	font-style:italic;
+	font-size:1rem;
+	float:right;
+}
 footer {
   margin-bottom: 0.7rem;
   margin-top: 5rem;
