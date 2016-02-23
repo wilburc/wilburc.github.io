@@ -4,7 +4,7 @@
  <title>Wilbur</title>
  <link href="wilburc.github.io/atom.xml" rel="self"/>
  <link href="wilburc.github.io/"/>
- <updated>2016-02-22T01:58:34-06:00</updated>
+ <updated>2016-02-23T01:30:01-06:00</updated>
  <id>wilburc.github.io</id>
  <author>
    <name>Wilbur Chen</name>
@@ -21,11 +21,9 @@
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_post_password_pic.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I don’t care what’s on the other side of that account registration screen, I left immediately.&lt;/p&gt;
-
 &lt;h2 id=&quot;i-dont-want-to-think&quot;&gt;I don’t want to think.&lt;/h2&gt;
 
-&lt;p&gt;Account registration should not require any thought. Really. As a way to a means, it’s meant to be quick and painless. It &lt;em&gt;has&lt;/em&gt; to be. &lt;a href=&quot;https://medium.com/uie-brain-sparks/the-300-million-button-76b566ae5f73#.f9s0swo4i&quot;&gt;Countless&lt;/a&gt; &lt;a href=&quot;https://www.nngroup.com/articles/optional-registration/&quot;&gt;studies&lt;/a&gt; have shown that account registration is a wall that people aren’t willing to scale.&lt;/p&gt;
+&lt;p&gt;Account registration should not require any thought. Really. As a way to a means, it’s meant to be quick and painless. It &lt;em&gt;has&lt;/em&gt; to be. &lt;a href=&quot;https://medium.com/uie-brain-sparks/the-300-million-button-76b566ae5f73#.f9s0swo4i&quot;&gt;Several&lt;/a&gt; &lt;a href=&quot;https://www.nngroup.com/articles/optional-registration/&quot;&gt;studies&lt;/a&gt; have shown that account registration is a wall that people aren’t willing to scale — unless they &lt;em&gt;really&lt;/em&gt; want whatever lies on the other side.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-worst-online-experience&quot;&gt;My worst online experience&lt;/h2&gt;
 
@@ -33,23 +31,15 @@
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_itunes_store.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;First of all, I have 3 iTunes accounts. Why?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;I used to not live in the United States. It’s surprisingly difficult to switch your account country preferences&lt;/li&gt;
-  &lt;li&gt;I had an iTunes gift card in one of my accounts, and credits are non-transferable, AFAIK&lt;/li&gt;
-  &lt;li&gt;I had to use my &lt;strong&gt;.edu&lt;/strong&gt; account for something. I think.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;But that’s besides the point. Let me show you &lt;em&gt;why&lt;/em&gt; I still don’t use iTunes for anything.&lt;/p&gt;
+&lt;p&gt;Let me show you &lt;em&gt;why&lt;/em&gt; I still don’t use iTunes for anything.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_1.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I guess it’s sort of my fault for not knowing how to answer my security questions, but let’s blow past that.&lt;/p&gt;
+&lt;p&gt;I guess it’s sort of my fault for not knowing how to answer my security questions, but… let’s blow past that.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_2.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Like I said earlier, it’s very hard to switch your country preferences — especially if you don’t know your password, obviously. Which I clearly don’t. But that’s fine, I can read it.&lt;/p&gt;
+&lt;p&gt;It’s very hard to switch your country preferences — especially if you don’t know your password. Which I obviously don’t.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_3.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
@@ -87,7 +77,7 @@
    <id>wilburc.github.io/2016/02/01/new-year-new-me</id>
    <content type="html">&lt;p&gt;This site is built with &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, on top of the  &lt;a href=&quot;http://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt; template.&lt;/p&gt;
 
-&lt;p&gt;I may or may not be writing a post with more details behind this new personal site. But I will definitely be writing more, so stay tuned.&lt;/p&gt;
+&lt;p&gt;More details to come soon.&lt;/p&gt;
 
 &lt;p&gt;Happy New Year!&lt;br /&gt;&lt;i&gt;-Wilbur Chen&lt;/i&gt;&lt;/p&gt;
 </content>
