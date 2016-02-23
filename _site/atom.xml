@@ -4,7 +4,7 @@
  <title>Wilbur</title>
  <link href="wilburc.github.io/atom.xml" rel="self"/>
  <link href="wilburc.github.io/"/>
- <updated>2016-02-23T02:46:48-06:00</updated>
+ <updated>2016-02-23T02:55:18-06:00</updated>
  <id>wilburc.github.io</id>
  <author>
    <name>Wilbur Chen</name>
@@ -36,7 +36,7 @@
 &lt;ul&gt;
   &lt;li&gt;Built with &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, graciously assisted by &lt;a href=&quot;http://getpoole.com/&quot;&gt;Poole&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Image zooming made possible and easy with &lt;a href=&quot;https://github.com/fat/zoom.js/tree/master&quot;&gt;zoom.js&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.exljbris.com/&quot;&gt;exljbris&lt;/a&gt;’ beautiful Calluna and Calluna Sans served by &lt;a href=&quot;http://typekit.com&quot;&gt;Adobe Typekit&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.exljbris.com/&quot;&gt;Jos Buivenga&lt;/a&gt;’s beautiful Calluna and Calluna Sans served by &lt;a href=&quot;http://typekit.com&quot;&gt;Adobe Typekit&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;A more detailed write-up with images and stuff may or may not be in the works.&lt;/p&gt;
