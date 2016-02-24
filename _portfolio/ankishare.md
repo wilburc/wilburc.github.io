@@ -11,7 +11,7 @@ details: UX Research/Design
 
 ## Background
 
-Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards:
+Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards. His initial vision was: 
 
 > The app connects everyone’s Anki accounts, pooling all their cards in the database. Students can access this database. App has algorithms that can identify the _best_ cards for any given category, consolidating them into ‘master decks.’
 
@@ -47,12 +47,12 @@ Access to all 400-ish students was available through their mailing list. This al
 We used these to validate our assumptions and mission.
 
 - All students use Anki cards
-- Most (90%+) students shared cards with their peers*
-- They spend *a lot* of time studying. 
+- Most (90%+) students shared cards with their peers, and weren’t picky about who they shared with*
+- Students spend *a lot* of time studying
 - Students study on their laptops and iPads
 - Students often collaborated in making/improving decks
 
-**This was important to us, as a common argument was “isn’t most of the value in the making of the cards?” 
+**This was important to us, as a common argument was “isn’t most of the value in the making of the cards?”*
 
 ### Contextual Inquiry 
 These surveys also helped us meet with some students. They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
