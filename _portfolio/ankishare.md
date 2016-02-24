@@ -11,6 +11,8 @@ details: UX Research/Design
 
 ## Background
 
+*This is a story of research and product definition.*
+
 Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards. His initial vision was: 
 
 > The app connects everyone’s Anki accounts, pooling all their cards in the database. Students can access this database. App has algorithms that can identify the _best_ cards for any given category, consolidating them into ‘master decks.’
@@ -136,9 +138,12 @@ Going in, I prepared a list of questions and tasks for students to complete. We 
 
 - **Ambiguous terminology** in our copy. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.
 - **The interface was confusing** to some. The most eye-opening to me was when we had a case of a <a href='https://www.nngroup.com/articles/illusion-of-completeness/'>false floor</a>. The student selected her filter fields, and the content appeared below the fold. She never noticed that it was there, and stared blankly back at me. This was fixed by including a “Filter” action button instead of an auto-filter, and slightly modified sizing.
-- **Clutter on the filter** was brought up many times, and hindered our testers’ ability to quickly locate a given deck. At the time, we were including every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, I was actually right. We modified the filter to only showing the courses of the user’s year, *reducing 75% of the clutter*.
+- **Clutter on the filter** was brought up many times, and hindered our testers’ ability to quickly locate a given deck — especially since many course names were similar
 
 Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. Students realized the value and basic workflow/functionality of the product. 
+
+### Sorting by Student Year
+The wall of text on the filter was a top priority for us — this was the primary way students would locate decks. At the time, we were listing every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, was proven correct. We modified the filter to only showing the courses of the user’s year, *reducing 75% of the clutter*.
 
 ### Viewing & Editing
 While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. With this new functionality, we this new viewing interface, the plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.
