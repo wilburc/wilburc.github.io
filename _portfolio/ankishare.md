@@ -114,7 +114,7 @@ However, this was met with some resistance both within the team and from the cli
 As a compromise, I suggested tracking the number of times a deck is downloaded, as a proxy for its popularity, and by extension, quality. While obviously a far cry from optimizing at the card level, the trade-off 
 
 ## Repository Structure
-During that ordeal, we were also thinking of ways to structure our deck “repository.” Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s Anatomyy final,” or “Histology 101, Week 3.” This translated into us needing an intuitive, precise, structure that could **let students easily pinpoint what they had in mind**.
+Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s Anatomy final,” or “Histology 101, Week 3.” This translated into us needing an intuitive, precise, structure that could **let students easily pinpoint what they had in mind**.
 
 However, upon looking at many existing decks created by students, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as:
 
