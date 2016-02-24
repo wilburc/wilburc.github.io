@@ -108,7 +108,7 @@ I looked to real products that also promote content based on popularity among th
 
 <img src="/files/ankishare_bestcard.png" data-action="zoom">
 
-The mockup above represents just one of *many* ideas we considered, imagining every possible way this could be achieved. I started to question whether or not this was even something we should have conisdered. Referring back to our initial goals and requirements, the value did *not* actually lie in this functionality. We wanted to *save* students time, not have them spend *more* time voting on cards.
+The mockup above represents just one of *many* ideas we considered, imagining every possible way this could be achieved. I started to question whether or not this was even something we should have considered. Referring back to our initial goals and requirements, the value did *not* actually lie in this functionality. We wanted to *save* students time, not have them spend *more* time voting on cards.
 
 However, this was met with some resistance both within the team and from the client. This functionality was important to them, in the supposed extra value it presented. Additionally, a fancy algorithm would boost the “cool-factor” of AnkiShare — not something to seriously consider.
 
