@@ -62,8 +62,9 @@ These surveys also helped us meet with some students. They walked us through the
 - Most students had 1,000–20,000 cards in their libraries
 - Everyone categorized/labelled their decks differently
 - Similarly, everyone’s cards were in different formats*
+- The UC Irvine School of Medicine has a set curriculum — all students of any given year take the same courses
 
-**We think of flashcards as question on the front, answer on the back. This was not the case at all. Many consisted of only images, and one or two words.*
+**We generally think of flashcards as question text on the front, answer text on the back. This was not the case at all. Many consisted of only screenshots, drawings, or just a few words.*
 
 ### Personas
 With this information and interaction with the users, we identifed two personas that these students almost all fell into: the **downloader**, and the **uploader**. 
@@ -80,7 +81,6 @@ This resulted in the idea of our two **key functionalities**: uploading and down
   2. Makes a vast wealth of resources available
 - The **User’s environment** is a combination of iPad and laptop — decks have to be imported via the desktop app, so we will be building a web-application.
 - **Anki Decks** are numerous and diverse in both content and format
-- **UCI School of Medicine** has a set curriculum — all students of any given year take the same classes
 
 ## Design
  
