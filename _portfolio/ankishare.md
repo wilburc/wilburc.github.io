@@ -110,42 +110,46 @@ I looked to real products that also promote content based on popularity among th
 
 The mockup above represents just one of *many* ideas we considered, imagining every possible way this could be achieved. I started to question whether or not this was even something we should have considered. Referring back to our initial goals and requirements, the value did *not* actually lie in this functionality. We wanted to *save* students time, not have them spend *more* time voting on cards.
 
-However, this was met with some resistance both within the team and from the client. This functionality was important to them, in the supposed extra value it presented. Additionally, a fancy algorithm would boost the “cool-factor” of AnkiShare — not something to seriously consider.
+However, this was met with some resistance both within the team and from the client. This functionality was important to them, in the supposed extra value it presented. Additionally, a fancy algorithm would boost the “cool-factor” of AnkiShare — which some considered to be important.
 
-As a compromise, I suggested tracking the number of times a deck is downloaded, as a proxy for its popularity, and by extension, quality. While obviously a far cry from optimizing at the card level, the trade-off 
+As a compromise, I suggested tracking the number of times a deck is downloaded, as a proxy for its popularity, and by extension, quality. While obviously a far cry from optimizing at the card level, the time and effort it afforded us paid off in the end. 
 
 ## Repository Structure
-Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s Anatomy final,” or “Histology 101, Week 3.” This translated into us needing an intuitive, precise, structure that could **let students easily pinpoint what they had in mind**.
+Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s Anatomy final,” or “Histology 101, Week 3.” This meant we needed an intuitive, precise, structure that could let students **easily pinpoint what they had in mind**.
 
-However, upon looking at many existing decks created by students, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as:
+However, upon looking at many of their existing decks, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as:
 
 <img src="/files/ankishare_hierarchy_example.png" data-action="zoom">
 
-It ultimately meant that there was no one structure that could account for all these different decks. I instead decided to not categorize them at all, and implement a filter.
+It ultimately meant that there was no one database structure that could account for all these different decks. I instead decided to *not categorize them at all*, and implement a filter that runs across the entire library.
 
 <img src="/files/ankishare_filter.png" data-action="zoom">
 
-A filter seems like the obvious solution, but wasn’t an option when we were still considering having “master decks.”
+A filter seems like the obvious solution, but keep in mind that it wasn’t an option when we were still considering having “master decks.”
 
 ## Key Functionality
-We were finally able to narrow down the product to a simple DropBox-esque web application, that allowed students to **upload** and **download** files. 
+We were finally able to narrow down the product to a simple Dropbox-esque web application, that allowed students to **upload** and **download** files. 
 
 ## User Testing
 To validate our product, test its usability, and receive feedback, we scheduled several rounds of user testing with medical students. 
 
-Going in, I prepared a list of questions and tasks for students to complete. We defined success based on how quickly and easily they could perform these tasks. Watching even the most confident students struggle with the simplest of tasks was definitely a reality check for us. In addition to issues with the interface and layout, we were able to identify confusing copy, and incorrect assumptions.  
+Going in, I prepared a list of questions and tasks for students to complete. **We defined success based on how quickly and easily they could perform these tasks**. Watching even the most confident and tech-savvy students struggle with the simplest of tasks was definitely a reality check for us.
 
-- **Ambiguous terminology** in our copy. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.
+- **Ambiguous terminology in our copy**. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.
 - **The interface was confusing** to some. The most eye-opening to me was when we had a case of a <a href='https://www.nngroup.com/articles/illusion-of-completeness/'>false floor</a>. The student selected her filter fields, and the content appeared below the fold. She never noticed that it was there, and stared blankly back at me. This was fixed by including a “Filter” action button instead of an auto-filter, and slightly modified sizing.
 - **Clutter on the filter** was brought up many times, and hindered our testers’ ability to quickly locate a given deck — especially since many course names were similar
 
-Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. Students realized the value and basic workflow/functionality of the product. 
+Fortunately, the high-level concept of our product (“It’s basically a Dropbox for Anki decks”) was easily understood and clear. Students realized the value and basic workflow/functionality of the product. 
+
+## Iteration 
+
+Upon analysis of my notes from testing, I wrote my recommendations and the team implemented them.
 
 ### Sorting by Student Year
 The wall of text on the filter was a top priority for us — this was the primary way students would locate decks. At the time, we were listing every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, was proven correct. We modified the filter to only showing the courses of the user’s year, *reducing 75% of the clutter*.
 
 ### Viewing & Editing
-While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. With this new functionality, we this new viewing interface, the plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.
+While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. The plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.
 
 ## Final Product
 The final product was infinitely simpler than we could have ever expected, but effectively carried out its twin key functionalities: **upload** and **download**. 
