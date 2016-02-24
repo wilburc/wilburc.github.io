@@ -31,7 +31,7 @@ He also described some pain-points he was trying to address:
 
 ## Research & Requirements
 
-We started with research, which involved getting to know both the **users*** and the **Anki software** that we would be building for, to both better understand their pain-points as well as their contexts.
+We started with research, which involved getting to know both the **users*** and the **Anki software** that we would be building for, to better understand their pain-points as well as their contexts.
 
 **Our client specified that this application would be limited to students of the U.C. Irvine School of Medicine.*
 
@@ -39,7 +39,7 @@ We started with research, which involved getting to know both the **users*** and
 We downloaded the Anki desktop/mobile applications, and found some decks to play around with. 
 
 - Software included on every incoming student’s iPad 
-- Anki decks must be added to a user’s library within the <i>desktop</i> app, and can be synced to devices from there (similar to puttings songs on your iPod via iTunes back in the day)
+- Anki decks must be added to a user’s library from the <i>desktop</i> app, and can be synced to devices from there (similar to puttings songs on your iPod via iTunes back in the day)
 - There is a built-in learning algorithm (hence its popularity with students, as we later confirmed)
 - Code for the desktop-app *not* available
 
@@ -49,10 +49,9 @@ Access to all 400-ish students was available through their mailing list. This al
 We used these to validate our assumptions and mission.
 
 - All students use Anki cards
-- Most (90%+) students shared cards with their peers, and weren’t picky about who they shared with*
+- Most (90%+) students share cards with their peers, and aren’t picky about who they share with*
 - Students spend *a lot* of time studying
 - Students study on their laptops and iPads
-- Students often collaborated in making/improving decks
 
 **This was important to us, as a common argument was “isn’t most of the value in the making of the cards?”*
 
@@ -72,7 +71,7 @@ With this information and interaction with the users, we identifed two personas 
 <img src="/files/ankishare_personas.png" data-action="zoom">
 
 
-This resulted in the idea of our two **key functionalities**: uploading and downloading.
+This translated into two *key functionalities*: **uploading** and **downloading**.
 
 ### Research Summary
 
