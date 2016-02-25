@@ -73,6 +73,8 @@
 
 <h2 id="background">Background</h2>
 
+<p><em>This is a story of research and product definition.</em></p>
+
 <p>Our client, a student in medical school, wanted an application that allowed students to easily share their <a href="http://ankisrs.net">Anki</a> flash cards. His initial vision was:</p>
 
 <blockquote>
@@ -97,7 +99,7 @@
 
 <h2 id="research--requirements">Research &amp; Requirements</h2>
 
-<p>We started with research, which involved getting to know both the <strong>users</strong>* and the <strong>Anki software</strong> that we would be building for, to both better understand their pain-points as well as their contexts.</p>
+<p>We started with research, which involved getting to know both the <strong>users</strong>* and the <strong>Anki software</strong> that we would be building for, to better understand their pain-points as well as their contexts.</p>
 
 <p><em>*Our client specified that this application would be limited to students of the U.C. Irvine School of Medicine.</em></p>
 
@@ -106,7 +108,7 @@
 
 <ul>
   <li>Software included on every incoming student’s iPad</li>
-  <li>Anki decks must be added to a user’s library within the <i>desktop</i> app, and can be synced to devices from there (similar to puttings songs on your iPod via iTunes back in the day)</li>
+  <li>Anki decks must be added to a user’s library from the <i>desktop</i> app, and can be synced to devices from there (similar to puttings songs on your iPod via iTunes back in the day)</li>
   <li>There is a built-in learning algorithm (hence its popularity with students, as we later confirmed)</li>
   <li>Code for the desktop-app <em>not</em> available</li>
 </ul>
@@ -118,10 +120,9 @@
 
 <ul>
   <li>All students use Anki cards</li>
-  <li>Most (90%+) students shared cards with their peers, and weren’t picky about who they shared with*</li>
+  <li>Most (90%+) students share cards with their peers, and aren’t picky about who they share with*</li>
   <li>Students spend <em>a lot</em> of time studying</li>
   <li>Students study on their laptops and iPads</li>
-  <li>Students often collaborated in making/improving decks</li>
 </ul>
 
 <p><em>*This was important to us, as a common argument was “isn’t most of the value in the making of the cards?”</em></p>
@@ -133,16 +134,17 @@
   <li>Most students had 1,000–20,000 cards in their libraries</li>
   <li>Everyone categorized/labelled their decks differently</li>
   <li>Similarly, everyone’s cards were in different formats*</li>
+  <li>The UC Irvine School of Medicine has a set curriculum — all students of any given year take the same courses</li>
 </ul>
 
-<p><em>*We think of flashcards as question on the front, answer on the back. This was not the case at all. Many consisted of only images, and one or two words.</em></p>
+<p><em>*We generally think of flashcards as question text on the front, answer text on the back. This was not the case at all. Many consisted of only screenshots, drawings, or just a few words.</em></p>
 
 <h3 id="personas">Personas</h3>
 <p>With this information and interaction with the users, we identifed two personas that these students almost all fell into: the <strong>downloader</strong>, and the <strong>uploader</strong>.</p>
 
 <p><img src="/files/ankishare_personas.png" data-action="zoom" /></p>
 
-<p>This resulted in the idea of our two <strong>key functionalities</strong>: uploading and downloading.</p>
+<p>This translated into two <em>key functionalities</em>: <strong>uploading</strong> and <strong>downloading</strong>.</p>
 
 <h3 id="research-summary">Research Summary</h3>
 
@@ -155,7 +157,6 @@
   </li>
   <li>The <strong>User’s environment</strong> is a combination of iPad and laptop — decks have to be imported via the desktop app, so we will be building a web-application.</li>
   <li><strong>Anki Decks</strong> are numerous and diverse in both content and format</li>
-  <li><strong>UCI School of Medicine</strong> has a set curriculum — all students of any given year take the same classes</li>
 </ul>
 
 <h2 id="design">Design</h2>
@@ -198,43 +199,50 @@
 
 <p><img src="/files/ankishare_bestcard.png" data-action="zoom" /></p>
 
-<p>The mockup above represents just one of <em>many</em> ideas we considered, imagining every possible way this could be achieved. I started to question whether or not this was even something we should have conisdered. Referring back to our initial goals and requirements, the value did <em>not</em> actually lie in this functionality. We wanted to <em>save</em> students time, not have them spend <em>more</em> time voting on cards.</p>
+<p>The mockup above represents just one of <em>many</em> ideas we considered, imagining every possible way this could be achieved. I started to question whether or not this was even something we should have considered. Referring back to our initial goals and requirements, the value did <em>not</em> actually lie in this functionality. <strong>We wanted to <em>save</em> students time, not have them spend <em>more</em> time voting on cards</strong>.</p>
 
-<p>However, this was met with some resistance both within the team and from the client. This functionality was important to them, in the supposed extra value it presented. Additionally, a fancy algorithm would boost the “cool-factor” of AnkiShare — not something to seriously consider.</p>
+<p>However, this was met with some resistance both within the team and from the client. This functionality was important to them, in the supposed extra value it presented. Additionally, a fancy algorithm would boost the “cool-factor” of AnkiShare — which some considered to be important.</p>
 
-<p>As a compromise, I suggested tracking the number of times a deck is downloaded, as a proxy for its popularity, and by extension, quality. While obviously a far cry from optimizing at the card level, the trade-off</p>
+<p>As a compromise, I suggested tracking the number of times a deck is downloaded, as a proxy for its popularity, and by extension, quality. While obviously a far cry from optimizing at the card level, the time and effort it afforded us paid off in the end.</p>
 
 <h2 id="repository-structure">Repository Structure</h2>
-<p>Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s Anatomy final,” or “Histology 101, Week 3.” This translated into us needing an intuitive, precise, structure that could <strong>let students easily pinpoint what they had in mind</strong>.</p>
+<p>Our research showed that students would generally know what decks they were looking for, whether it be “material for Professor X’s Anatomy final,” or “Histology 101, Week 3.” This meant we needed an intuitive, precise, structure that could let students <strong>easily pinpoint what they had in mind</strong>.</p>
 
-<p>However, upon looking at many existing decks created by students, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as:</p>
+<p>However, upon looking at many of their existing decks, we noticed that there were many ways they were classified — some people made decks by course, some by topic, some by exam. This suggested several possible “directory structures,” such as:</p>
 
 <p><img src="/files/ankishare_hierarchy_example.png" data-action="zoom" /></p>
 
-<p>It ultimately meant that there was no one structure that could account for all these different decks. I instead decided to not categorize them at all, and implement a filter.</p>
+<p>It ultimately meant that there was no one database structure that could account for all these different decks. I instead decided to <em>not categorize them at all</em>, and implement a filter that runs across the entire library.</p>
 
 <p><img src="/files/ankishare_filter.png" data-action="zoom" /></p>
 
-<p>A filter seems like the obvious solution, but wasn’t an option when we were still considering having “master decks.”</p>
+<p>A filter seems like the obvious solution, but keep in mind that it wasn’t an option when we were still considering having “master decks.”</p>
 
 <h2 id="key-functionality">Key Functionality</h2>
-<p>We were finally able to narrow down the product to a simple DropBox-esque web application, that allowed students to <strong>upload</strong> and <strong>download</strong> files.</p>
+<p>We were finally able to narrow down the product to a simple Dropbox-esque web application, that allowed students to <strong>upload</strong> and <strong>download</strong> files.</p>
 
 <h2 id="user-testing">User Testing</h2>
 <p>To validate our product, test its usability, and receive feedback, we scheduled several rounds of user testing with medical students.</p>
 
-<p>Going in, I prepared a list of questions and tasks for students to complete. We defined success based on how quickly and easily they could perform these tasks. Watching even the most confident students struggle with the simplest of tasks was definitely a reality check for us. In addition to issues with the interface and layout, we were able to identify confusing copy, and incorrect assumptions.</p>
+<p>Going in, I prepared a list of questions and tasks for students to complete. <strong>We defined success based on how quickly and easily they could perform these tasks</strong>. Watching even the most confident and tech-savvy students struggle with the simplest of tasks was definitely a reality check for us.</p>
 
 <ul>
-  <li><strong>Ambiguous terminology</strong> in our copy. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.</li>
+  <li><strong>Ambiguous terminology in our copy</strong>. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.</li>
   <li><strong>The interface was confusing</strong> to some. The most eye-opening to me was when we had a case of a <a href="https://www.nngroup.com/articles/illusion-of-completeness/">false floor</a>. The student selected her filter fields, and the content appeared below the fold. She never noticed that it was there, and stared blankly back at me. This was fixed by including a “Filter” action button instead of an auto-filter, and slightly modified sizing.</li>
-  <li><strong>Clutter on the filter</strong> was brought up many times, and hindered our testers’ ability to quickly locate a given deck. At the time, we were including every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, I was actually right. We modified the filter to only showing the courses of the user’s year, <em>reducing 75% of the clutter</em>.</li>
+  <li><strong>Clutter on the filter</strong> was brought up many times, and hindered our testers’ ability to quickly locate a given deck — especially since many course names were similar</li>
 </ul>
 
-<p>Fortunately, the high-level concept of our product (“It’s basically a DropBox for Anki decks”) was easily understood and clear. Students realized the value and basic workflow/functionality of the product.</p>
+<p>Fortunately, the high-level concept of our product (“It’s basically a Dropbox for Anki decks”) was easily understood and clear. Students realized the value and basic workflow/functionality of the product.</p>
+
+<h2 id="iteration">Iteration</h2>
+
+<p>Upon analysis of my notes from testing, I wrote my recommendations and the team implemented them.</p>
+
+<h3 id="sorting-by-student-year">Sorting by Student Year</h3>
+<p>Fixing the wall of text on the filter was a top priority for us — this was the primary way students would locate decks. At the time, we were listing every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, was proven correct. We modified the filter to only showing the courses of the user’s year, <em>reducing 75% of the clutter</em>.</p>
 
 <h3 id="viewing--editing">Viewing &amp; Editing</h3>
-<p>While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. <strong>Card format and “style” were much more important to them than we expected.</strong> Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. With this new functionality, we this new viewing interface, the plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.</p>
+<p>While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. <strong>Card format and “style” were much more important to them than we expected.</strong> Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. The plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.</p>
 
 <h2 id="final-product">Final Product</h2>
 <p>The final product was infinitely simpler than we could have ever expected, but effectively carried out its twin key functionalities: <strong>upload</strong> and <strong>download</strong>.</p>
@@ -337,7 +345,7 @@
         </small>
 
         <small style='float:right;'>
-          Wilbur Chen &copy; <time datetime="2016-02-24T00:51:34-06:00">2016</time>. 
+          Wilbur Chen &copy; <time datetime="2016-02-25T16:17:20-06:00">2016</time>. 
         </small>
       </footer>
     </div>

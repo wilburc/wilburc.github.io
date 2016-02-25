@@ -4,13 +4,54 @@
  <title>Wilbur</title>
  <link href="wilburc.github.io/atom.xml" rel="self"/>
  <link href="wilburc.github.io/"/>
- <updated>2016-02-24T00:51:34-06:00</updated>
+ <updated>2016-02-25T16:17:20-06:00</updated>
  <id>wilburc.github.io</id>
  <author>
    <name>Wilbur Chen</name>
    <email>wilburchen1@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Calluna</title>
+   <link href="wilburc.github.io/2016/02/24/calluna/"/>
+   <updated>2016-02-24T00:00:00-06:00</updated>
+   <id>wilburc.github.io/2016/02/24/calluna</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Choosing a typeface is the most vexing, infuriating, time-consuming, and pleasurable part. &lt;br /&gt; &lt;br /&gt;— Richard Hendel, &lt;em&gt;On Book Design&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Similarly, designing a personal site is both frustrating and satisfying — you &lt;em&gt;know&lt;/em&gt; what you want. Intimate familiarity with our own personality and style demand precision in how we choose to represent ourselves.&lt;/p&gt;
+
+&lt;h2 id=&quot;personality&quot;&gt;Personality&lt;/h2&gt;
+
+&lt;p&gt;As an amateur typographer (which is a &lt;em&gt;very&lt;/em&gt; generous title), I wanted to select a typeface that I felt represented me well, and conveyed my personality.&lt;/p&gt;
+
+&lt;p&gt;What resonated with me the most about Calluna is how, despite maintaining the appearance of a standard humanist serif, certain aspects of it have been modified to give it a subtle, unique feel. I find it important to embrace change and difference, while still remaining grounded.&lt;/p&gt;
+
+&lt;p&gt;I grew up partially in Japan. My greatest takeaway was undoubtedly the unique Japanese culture — a dichotomy of tradition and progress. While seemingly incompatible, this unyielding connection to ancient culture complements their achievements in technological innovation. In design, I maintain deep respect and recognition for tried-and-tested usability principles and patterns. In fact, progress is born not from neglect of these principles, but from understanding of them. By understanding the origins and contexts of these principles, we can learn to adapt or build off of them, creating value and exploring new ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/2_24_calluna_1.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Calluna’s asymmetrical characters create a unique and fresh new feel, for an otherwise traditional humanist serif. Despite being gently rooted in old-style tradition, several aspects of the characters, such as the serifs and the shoulders, slope towards the upper-right corner, creating a forward flow. These modifications give it a crisp perkiness uncommon in old-style typefaces, while maintaining the formality, credibility, and robustness.&lt;/p&gt;
+
+&lt;h2 id=&quot;style&quot;&gt;Style&lt;/h2&gt;
+
+&lt;p&gt;Having written much of the content before the design process, I knew there was an abundance of italics throughout the writing — in an attempt to capture the many stresses and intonations I use colloquially. The italic style of Calluna is elegant and fluid, but more importantly, maintains the confidence and density of the regular characters. While other italics often crumple under the stature of their normal-weighted neighbors, Calluna’s proudly stand among them, fitting in, while still occasionally flaunting their magnificence.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/2_24_calluna_2.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from the &lt;em&gt;em dash&lt;/em&gt;, my most commonly used form of punctuation is probably the question mark — often closing rhetorical questions. Calluna’s question marks are less formal and decorated than those of other fonts. The sleek curvature helps the sentence main its flow and direction. Instead of ending the sentence with a flourish and waiting for a response, Calluna’s uncomplicated question marks preserve the flow of the sentence, making for a frank and slightly sassy transition into the next thought.&lt;/p&gt;
+
+&lt;h2 id=&quot;thats-it&quot;&gt;That’s it&lt;/h2&gt;
+
+&lt;p&gt;Basically, I went through dozens of typefaces, looking for the perfect body font, landing on regular 20-point Calluna. It was selected for its synthesis of traditional humanist features, along with unique asymmetry and flow. Whether it accurately represents me is up for contention, as most areas of subjectivity are. I can’t convince you that Calluna is a typographic representation of me in my purest form, but I &lt;em&gt;can&lt;/em&gt; explain my process and thinking, and let you decide for yourself.&lt;/p&gt;
+
+&lt;p&gt;Humbly,&lt;br /&gt;
+&lt;em&gt;Wilbur&lt;/em&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>We’re back!</title>
@@ -29,7 +70,7 @@
 
 &lt;h2 id=&quot;technologies&quot;&gt;Technologies&lt;/h2&gt;
 
-&lt;p&gt;I used to build sites out of nothing but pure, unadulterated HTML/CSS/JavaScript. Out of nothing but ignorance, maybe. You can probably imagine how messy &lt;em&gt;that&lt;/em&gt; got. It was like building a house out of wet cardboard and stripped yarn.&lt;/p&gt;
+&lt;p&gt;I used to build sites out of nothing but pure, unadulterated HTML/CSS/JavaScript. Out of nothing but ignorance, maybe. You can probably imagine how messy &lt;em&gt;that&lt;/em&gt; got — it was like building a house out of wet cardboard and stripped yarn.&lt;/p&gt;
 
 &lt;p&gt;One year of constant iteration and two sketchbooks later, I dedicated a weekend to nothing but brunch and this site, and today I humbly present the result.&lt;/p&gt;
 
@@ -44,7 +85,7 @@
 
 &lt;p&gt;Good night,
 &lt;br /&gt;
-&lt;em&gt;Wilbur Chen&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;Wilbur&lt;/em&gt;&lt;/p&gt;
 
 </content>
  </entry>
@@ -102,7 +143,7 @@
 
 &lt;p&gt;Signing off,
 &lt;br /&gt;
-&lt;em&gt;Wilbur Chen&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;Wilbur&lt;/em&gt;&lt;/p&gt;
 
 </content>
  </entry>
@@ -116,7 +157,7 @@
 
 &lt;p&gt;More details to come soon.&lt;/p&gt;
 
-&lt;p&gt;Happy New Year!&lt;br /&gt;&lt;i&gt;-Wilbur Chen&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Happy New Year!&lt;br /&gt;&lt;i&gt;-Wilbur&lt;/i&gt;&lt;/p&gt;
 </content>
  </entry>
  

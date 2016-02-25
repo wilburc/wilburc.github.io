@@ -52,7 +52,7 @@ And obviously, because of that, it’s already been used before and can’t be u
 
 Signing off,
 <br>
-*Wilbur Chen*
+*Wilbur*
 
 
 

@@ -8,4 +8,4 @@ This site is built with <a href='http://jekyllrb.com'>Jekyll</a>, on top of the 
 
 More details to come soon. 
 
-Happy New Year!<br><i>-Wilbur Chen</i>
+Happy New Year!<br><i>-Wilbur</i>

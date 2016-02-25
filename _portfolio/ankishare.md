@@ -146,7 +146,7 @@ Fortunately, the high-level concept of our product (“It’s basically a Dropbo
 Upon analysis of my notes from testing, I wrote my recommendations and the team implemented them.
 
 ### Sorting by Student Year
-The wall of text on the filter was a top priority for us — this was the primary way students would locate decks. At the time, we were listing every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, was proven correct. We modified the filter to only showing the courses of the user’s year, *reducing 75% of the clutter*.
+Fixing the wall of text on the filter was a top priority for us — this was the primary way students would locate decks. At the time, we were listing every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, was proven correct. We modified the filter to only showing the courses of the user’s year, *reducing 75% of the clutter*.
 
 ### Viewing & Editing
 While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. The plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.
