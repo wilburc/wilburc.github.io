@@ -87,7 +87,7 @@ This translated into two *key functionalities*: **uploading** and **downloading*
 Our client suggested grouping all similar/redundant cards together, and figuring out how to identify the best card for each group, aggregating all of *these* cards into the so-called “master deck.” 
 
 - ALL CARDS
-	  - Anatomy 101 cards
+	- Anatomy 101 cards
 		- Cards about the number of bones in the hand
 			- *Best* card about number of bones in the hand
 
