@@ -78,6 +78,7 @@ This translated into two *key functionalities*: **uploading** and **downloading*
 
 - **Repository of cards** was a pretty simple concept to us — basically just a huge dump of cards that was nicely categorized.
 - **Best Cards Algorithm** was something else, and the greatest design challenge we faced.
+
 **While we did mention the “best card” algorithm to students, none expressed a strong interest in it. However, in an effort to please our client, we went with it anyway.*
 
 ### “Best Card”
