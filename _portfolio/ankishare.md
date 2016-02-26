@@ -11,7 +11,7 @@ details: Product Design/UX Research
 
 ## Background
 
-*This is a story of research and product definition.*
+*This is a story of how extensive research of users and their contexts shaped our product and influenced my decisions*
 
 Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards. His initial vision was: 
 
