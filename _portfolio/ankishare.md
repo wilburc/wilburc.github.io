@@ -97,7 +97,7 @@ Our research showed that this would be impossible — cards were in various form
 
 We weren’t going to give up that easily, though. While no algorithm could rank these cards, *people* could — our *users* could. 
 
-I looked to real products that also promote content based on popularity among their users.<a href='http://reddit.com'>Reddit</a>’s upvote/downvote system was one that we thought about, along with <a href='http://yelp.com'>Yelp</a>’s star-based rating system.
+I looked to real products that also promote content based on popularity among their users. <a href='http://reddit.com'>Reddit</a>’s upvote/downvote system was one that we thought about, along with <a href='http://yelp.com'>Yelp</a>’s star-based rating system.
 
 <img src="/files/ankishare_bestcard.png" data-action="zoom">
 
@@ -130,8 +130,8 @@ To validate our product, test its usability, and receive feedback, we scheduled 
 Going in, I prepared a list of questions and tasks for students to complete. **We defined success based on how quickly and easily they could perform these tasks**. Watching even the most confident and tech-savvy students struggle with the simplest of tasks was definitely a reality check for us.
 
 - **Ambiguous terminology in our copy**. For example, students didn’t know if “author” referred to the student who made the deck or the professor who wrote the textbook that the cards are based off of. We started including this in our surveys, to decide on which nomenclature to use.
-- **The interface was confusing** to some. The most eye-opening to me was when we had a case of a <a href='https://www.nngroup.com/articles/illusion-of-completeness/'>false floor</a>. The student selected her filter fields, and the content appeared below the fold. She never noticed that it was there, and stared blankly back at me. 
-- **Clutter on the filter** was brought up many times, and hindered our testers’ ability to quickly locate a given deck — especially since many course names were similar
+- **The interface was confusing** to some. The most eye-opening to me was when we had a case of a <a href='https://www.nngroup.com/articles/illusion-of-completeness/'>false floor</a>. The student selected her filter fields, and the content appeared below the fold. They thought it never loaded, and gave me a “your thing is broken” look.
+- **Clutter on the filter** was brought up many times, and hindered our testers’ ability to quickly locate a given deck — especially since many course names were similar.
 
 Fortunately, the high-level concept of our product (“It’s basically a Dropbox for Anki decks”) was easily understood and clear. Students realized the value and basic workflow/functionality of the product. 
 
@@ -142,7 +142,7 @@ Upon analysis of my notes from testing, I wrote my recommendations and the team 
 To fix the issue with the false-floor, we implemented a “Filter” action button, instead of an auto-filter that loaded the content automatically, without re-loading the page. The page load would better indicate that the filter had been applied. We also fixed the responsive-ness of the application and slightly modified the sizing of some elements.
 
 ### Sorting by Student Year
-Fixing the wall of text on the filter was a top priority for us — testing showed that this was the primary way students would locate decks. At the time, we were listing every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, was proven correct. We modified the filter to only show the courses of the user’s year, *reducing 75% of the clutter*.
+Fixing the wall of text on the filter was a top priority for us — testing showed that this was the primary way students would locate decks. At the time, we were listing every single course the school offers under the “course” filter. I hypothesized that students would only be looking for courses corresponding to their given year, and after surveys, was proven correct. We modified the filter to only show the courses of the user’s year, **reducing 75% of the clutter**.
 
 ### Viewing & Editing
 While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. The plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.
