@@ -24,12 +24,12 @@ He also described some pain-points he was trying to address:
 
 ## Research & Requirements
 
-We started with research, which involved getting to know both the **users*** and the **Anki software** that we would be building for, to better understand their pain-points as well as their contexts.
+We started with research, which involved getting to know both the **users*** and the **Anki software** that we would be building for, to better understand their pain-points and context.
 
 **Our client specified that this application would be limited to students of the U.C. Irvine School of Medicine.*
 
 ### Anki Software
-We downloaded the Anki desktop/mobile applications, and found some decks to play around with. 
+As we had never used Anki software before, we downloaded the Anki desktop/mobile applications, and found some decks to play around with. 
 
 - Anki software included on every incoming student’s iPad 
 - Anki decks must be added to a user’s library from the *desktop* app, and are synced to devices from there (similar to putting songs on your iPod via iTunes back in the day)
@@ -48,7 +48,7 @@ We sent out surveys to validate our assumptions and mission.
 **This was important to us, as a common argument was “isn’t most of the value in the making of the cards?”*
 
 ### Contextual Inquiry 
-These surveys also helped us meet with some students. They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
+These surveys also helped us meet with some students. They walked us through their file libraries and talked about their study habits and flashcard preferences. 
 
 - Most students had 1,000–20,000 cards in their libraries
 - Everyone categorized/labelled their decks differently
@@ -70,7 +70,7 @@ This translated into two *key functionalities*: **uploading** and **downloading*
 - The **value** of the product lies in two main areas:
   1. Saves time spent communicating between students and sending decks
   2. Makes a *vast* wealth of resources available
-- The **user’s environment** is a combination of iPad and laptop — decks have to be imported via the desktop app, so Ankishare will be a web-application.
+- The **user’s environment** is a combination of iPad and laptop — decks have to be imported via the desktop app, so AnkiShare will be a web-application.
 - **Anki Decks** are numerous and diverse in both content and format
 
 ## Design
@@ -168,7 +168,7 @@ Several rounds of user-testing, along with surveys, allowed us to constantly val
 ## Future Plans
 
 ### Visual Design
-It’s probably clear at this point that we had little to no time working on the visual design of this product. While I recognize the importance of an aesthetically pleasing product, I didn’t hesitate to deliver something visually “acceptable” that worked, given our deadline. Regardless, certain elements such as the typography could be optimized to both enhance usability, scannability, and visual pleasure.
+It’s probably clear at this point that we had little to no time working on the visual design of this product. While I recognize the importance of an aesthetically pleasing product, I didn’t hesitate to deliver something visually “acceptable” that worked, given our deadline. Regardless, certain elements such as the typography could be optimized to both enhance usability, scanability, and visual pleasure.
 
 ### Scalability
 While intended for and limited to medical-school students, flashcards are used by all sorts of people in many different fields. The main concept of AnkiShare is in no way restricted to medicine, and AnkiShare could potentially be expanded and scaled to help other non-medical students as well. 
