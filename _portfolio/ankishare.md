@@ -7,10 +7,10 @@ details: Product Design/UX Research
 
 - Capstone Project in Informatics at U.C. Irvine, 9 months
 - I was responsible for the research, mockups, and user-testing
-- This is a story about research and product definition
 
 ## Background
 
+*This is a story on translating research into requirements, product definition, and narrowing down complexity.*
 
 Our client, a student in medical school, wanted an application that allowed students to easily share their <a href='http://ankisrs.net'>Anki</a> flash cards. His vision was: 
 
@@ -50,7 +50,7 @@ We sent out surveys to validate our assumptions and mission.
 ### Contextual Inquiry 
 These surveys also helped us meet with some students. They walked us through their file libraries, and talked about their study habits and flashcard preferences. 
 
-- Most students had 1,000-20,000 cards in their libraries
+- Most students had 1,000–20,000 cards in their libraries
 - Everyone categorized/labelled their decks differently
 - Similarly, everyone’s cards were in different formats*
 - The UC Irvine School of Medicine has a set curriculum — all students of any given year take the same courses
