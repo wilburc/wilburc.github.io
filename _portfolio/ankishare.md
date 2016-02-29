@@ -148,7 +148,7 @@ Fixing the wall of text on the filter was a top priority for us — testing show
 While students could easily download the deck that we specified, many expressed concerns for knowing which deck to download. They elaborated that when looking for decks, they want to know what they’re getting. **Card format and “style” were much more important to them than we expected.** Because of this, we quickly threw together a “Deck Preview” feature that allowed them to view the decks in their entirety before downloading. The plug-in we used also afforded us easy implementation of an “edit” function, promoting collaboration among the students in improving these decks.
 
 ## Final Product
-The final product was infinitely simpler than we could have ever expected, but effectively carried out its two key functionalities: **upload** and **download**. 
+The final product was much simpler than we could have ever expected, and effectively carried out its two key functionalities: **upload** and **download**. 
 
 <img src="/files/ankishare_upload.png" data-action="zoom">
 
