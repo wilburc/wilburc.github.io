@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  Literally the worst.
-intro:  A rant — with screenshots!
+intro:  a rant—with screenshots!
 ---
 
-Few things on the internet really annoy me — but those that do, make me want to cry over their designer’s keyboards so they can never violate a user’s sanity ever again.
+Few things on the internet really annoy me—but those that do, make me want to cry over their designer’s keyboards so they can never violate a user’s sanity ever again.
 
 <img src="/files/2_19_post_password_pic.png" data-action="zoom">
 
@@ -14,7 +14,7 @@ Account registration should not require any thought.  As a way to a means, it’
 
 ## My worst online experience
 
-Now, you may think that the password incident above was from an old, under-designed website. That may be true — but an incident equally egregious, an experience that claims the #1 spot in my “Worst digital experiences 1993–2016,” occurred at the hands of a company you’ve definitely heard of.  
+Now, you may think that the password incident above was from an old, under-designed website. That may be true—but an incident equally egregious, an experience that claims the #1 spot in my “Worst digital experiences 1993–2016,” occurred at the hands of a company you’ve definitely heard of.  
 
 <img src="/files/2_19_itunes_store.png" data-action="zoom">
 
