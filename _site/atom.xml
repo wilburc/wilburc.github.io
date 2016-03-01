@@ -4,7 +4,7 @@
  <title>Wilbur</title>
  <link href="wilburc.github.io/atom.xml" rel="self"/>
  <link href="wilburc.github.io/"/>
- <updated>2016-02-28T20:52:17-06:00</updated>
+ <updated>2016-03-01T14:08:39-06:00</updated>
  <id>wilburc.github.io</id>
  <author>
    <name>Wilbur Chen</name>
@@ -97,29 +97,29 @@
    <link href="wilburc.github.io/2016/02/19/literally-the-worst/"/>
    <updated>2016-02-19T00:00:00-06:00</updated>
    <id>wilburc.github.io/2016/02/19/literally-the-worst</id>
-   <content type="html">&lt;p&gt;Few things on the internet really annoy me — but those that do, make me want to cry over their designer’s keyboards so they can never violate a user’s sanity ever again.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Few things on the internet really annoy me—but those that do, make me want to cry over their designer’s keyboards so they can never violate a user’s sanity ever again.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_post_password_pic.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;i-dont-want-to-think&quot;&gt;I don’t want to think.&lt;/h2&gt;
 
-&lt;p&gt;Account registration should not require any thought. Really. As a way to a means, it’s meant to be quick and painless. It &lt;em&gt;has&lt;/em&gt; to be. &lt;a href=&quot;https://medium.com/uie-brain-sparks/the-300-million-button-76b566ae5f73#.f9s0swo4i&quot;&gt;Several&lt;/a&gt; &lt;a href=&quot;https://www.nngroup.com/articles/optional-registration/&quot;&gt;studies&lt;/a&gt; have shown that account registration is a wall that people aren’t willing to scale — unless they &lt;em&gt;really&lt;/em&gt; want whatever lies on the other side.&lt;/p&gt;
+&lt;p&gt;Account registration should not require any thought.  As a way to a means, it’s meant to be quick and painless. It &lt;em&gt;has&lt;/em&gt; to be. &lt;a href=&quot;https://medium.com/uie-brain-sparks/the-300-million-button-76b566ae5f73#.f9s0swo4i&quot;&gt;Several&lt;/a&gt; &lt;a href=&quot;https://www.nngroup.com/articles/optional-registration/&quot;&gt;studies&lt;/a&gt; have shown that account registration is a wall that people aren’t willing to scale — unless they &lt;em&gt;really&lt;/em&gt; want whatever lies on the other side.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-worst-online-experience&quot;&gt;My worst online experience&lt;/h2&gt;
 
-&lt;p&gt;Now, you may think that the password incident above was from an old, under-designed website. That may be true — but something similar, but even &lt;em&gt;worse&lt;/em&gt; than this, an experience that claims the #1 spot in my “Worst digital experiences 1993–2016,” occurred at the hands of a company you’ve definitely heard of.&lt;/p&gt;
+&lt;p&gt;Now, you may think that the password incident above was from an old, under-designed website. That may be true—but an incident equally egregious, an experience that claims the #1 spot in my “Worst digital experiences 1993–2016,” occurred at the hands of a company you’ve definitely heard of.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_itunes_store.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Let me show you &lt;em&gt;why&lt;/em&gt; I still don’t use iTunes for anything.&lt;/p&gt;
+&lt;p&gt;There’s a reason why I still hesitate to use iTunes for anything.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_1.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I guess it’s sort of my fault for not knowing how to answer my security questions, but… let’s blow past that.&lt;/p&gt;
+&lt;p&gt;This is all under the assumption that I don’t know the answer to my security questions. I’ll save this for another post.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_2.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;It’s very hard to switch your country preferences — especially if you don’t know your password. Which I obviously don’t.&lt;/p&gt;
+&lt;p&gt;It’s very hard to switch your country preferences — especially if you don’t know your password.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_3.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
@@ -131,17 +131,15 @@
   &lt;li&gt;Have at least one number&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;So not the &lt;em&gt;worst&lt;/em&gt; criteria. But that’s not all.&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_4.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Apparently it’s too easy to guess, despite fulfilling all of the criteria, which are &lt;em&gt;there&lt;/em&gt; to make it harder to guess. What?&lt;/p&gt;
+&lt;p&gt;Despite fulfilling all of the criteria, there was a &lt;em&gt;hidden&lt;/em&gt; condition—that your password cannot be “too easy to guess.” I thought that was the whole point of the 3 criteria above.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/2_19_reset_pw_5.png&quot; data-action=&quot;zoom&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;That’s okay — at this point, I tried a password I knew would work. The only one in my running list of passwords I use, that can be considered complicated.&lt;/p&gt;
+&lt;p&gt;I’m interested in seeing any studies that show that people generally use the same 2-3 passwords for all their accounts. I ended up using one of my fallback ones that miraculously &lt;em&gt;did&lt;/em&gt; satisfy the 4th &lt;em&gt;hidden&lt;/em&gt; requirement…&lt;/p&gt;
 
-&lt;p&gt;And obviously, because of that, it’s already been used before and can’t be used again.&lt;/p&gt;
+&lt;p&gt;…and obviously, because of that, it’s already been used before and can’t be used again.&lt;/p&gt;
 
 &lt;p&gt;Signing off,
 &lt;br /&gt;
