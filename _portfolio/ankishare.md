@@ -24,9 +24,9 @@ He also described some pain-points he was trying to address:
 
 ## Research & Requirements
 
-We started with research, which involved getting to know both the **users*** and the **Anki software** that we would be building for, to better understand their pain-points and context.
+We started with research, which involved getting to know both the **users**\* and the **Anki software** that we would be building for, to better understand their pain-points and context.
 
-**Our client specified that this application would be limited to students of the U.C. Irvine School of Medicine.*
+\**Our client specified that this application would be limited to students of the U.C. Irvine School of Medicine.*
 
 ### Anki Software
 As we had never used Anki software before, we downloaded the Anki desktop/mobile applications, and found some decks to play around with. 
@@ -45,17 +45,17 @@ We sent out surveys to validate our assumptions and mission.
 - Students spend *a lot* of time studying
 - Students study on their laptops and iPads
 
-**This was important to us, as a common argument was “isn’t most of the value in the making of the cards?”*
+\**This was important to us, as a common argument was “isn’t most of the value in the making of the cards?”*
 
-### Contextual Inquiry 
+### Contextual Inquiry
 These surveys also helped us meet with some students. They walked us through their file libraries and talked about their study habits and flashcard preferences. 
 
 - Most students had 1,000–20,000 cards in their libraries
 - Everyone categorized/labelled their decks differently
-- Similarly, everyone’s cards were in different formats*
+- Similarly, everyone’s cards were in different formats\*
 - The UC Irvine School of Medicine has a set curriculum — all students of any given year take the same courses
 
-**We generally think of flashcards as question text on the front, answer text on the back. This was not the case at all. Many consisted of only screenshots, drawings, or just a few words.*
+\**We generally think of flashcards as question text on the front, answer text on the back. This was not the case at all. Many consisted of only screenshots, drawings, or just a few words.*
 
 ### Personas
 With this information and interaction with the users, we identified two personas that these students almost all fell into: the **downloader**, and the **uploader**. 
@@ -65,11 +65,11 @@ With this information and interaction with the users, we identified two personas
 
 This translated into two *key functionalities*: **uploading** and **downloading**.
 
-### Research Summary 
+### Research Summary
 
 - The **value** of the product lies in two main areas:
-  1. Saves time spent communicating between students and sending decks
-  2. Makes a *vast* wealth of resources available
+  - Saves time spent communicating between students and sending decks
+  - Makes a *vast* wealth of resources available
 - The **user’s environment** is a combination of iPad and laptop — decks have to be imported via the desktop app, so AnkiShare will be a web-application.
 - **Anki Decks** are numerous and diverse in both content and format
 
@@ -79,7 +79,7 @@ This translated into two *key functionalities*: **uploading** and **downloading*
 - **Repository of cards** was a pretty simple concept to us — basically just a huge dump of cards that was nicely categorized.
 - **Best Cards Algorithm** was something else, and the greatest design challenge we faced.
 
-**While we did mention the “best card” algorithm to students, none expressed a strong interest in it. However, in an effort to please our client, we went with it anyway.*
+\**While we did mention the “best card” algorithm to students, none expressed a strong interest in it. However, in an effort to please our client, we went with it anyway.*
 
 ### “Best Card”
  At the beginning of the project, we had identified that the technical skill amongst our team was not very strong. However, we were still naīve (“optimistic”) enough to entertain ideas regarding techniques such as image-recognition and machine learning.
@@ -125,7 +125,7 @@ We instead decided to *not categorize them at all*, and implement a filter that 
 We were finally able to narrow down the product to a simple Dropbox-esque web application, that allowed students to perform our previously-defined key functionalities: **upload** and **download**.
 
 ## User Testing
-To validate our product, test its usability, and receive feedback, we scheduled several rounds of user testing with medical students. 
+To validate our product, test its usability, and receive feedback, we scheduled several rounds of user testing with medical students. The full usability report can be read [here][1].
 
 Going in, I prepared a list of questions and tasks for students to complete. **We defined success based on how quickly and easily they could perform these tasks**. Watching even the most confident and tech-savvy students struggle with the simplest of tasks was definitely a reality check for us.
 
@@ -135,7 +135,7 @@ Going in, I prepared a list of questions and tasks for students to complete. **W
 
 Fortunately, the high-level concept of our product (“It’s basically a Dropbox for Anki decks”) was easily understood and clear. Students realized the value and basic workflow/functionality of the product. 
 
-## Iteration 
+## Iteration
 Upon analysis of my notes from testing, I wrote my recommendations and the team implemented them.
 
 ### Auto-filter vs. Filter Button
@@ -198,3 +198,4 @@ While intended for and limited to medical-school students, flashcards are used b
 
 
 
+[1]:	/files/ankishare_usability_report.pdf
