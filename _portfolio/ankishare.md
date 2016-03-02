@@ -82,7 +82,7 @@ This translated into two *key functionalities*: **uploading** and **downloading*
 \**While we did mention the “best card” algorithm to students, none expressed a strong interest in it. However, in an effort to please our client, we went with it anyway.*
 
 ### “Best Card”
- At the beginning of the project, we had identified that the technical skill amongst our team was not very strong. However, we were still naīve (“optimistic”) enough to entertain ideas regarding techniques such as image-recognition and machine learning.
+ At the beginning of the project, we had identified that the technical skill amongst our team was not very strong. However, we were still naïve (“optimistic”) enough to entertain ideas regarding techniques such as image-recognition and machine learning.
 
 Our client suggested grouping all similar/redundant cards together, and figuring out how to identify the best card for each group, aggregating all of *these* cards into the so-called “master deck.” 
 
