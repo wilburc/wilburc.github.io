@@ -3,7 +3,7 @@ layout: default
 title: Resumé
 ---
 
-#Resumé
+# Resumé
 
 For something more PDF-shaped, check <a href='/files/wilbur_chen_resume.pdf'>this</a> out.
 
