@@ -17,7 +17,7 @@ For something more PDF-shaped, check <a href='/files/wilbur_chen_resume.pdf'>thi
 
 As part of the data-science team at Centro, I have two main responsibilities:
 
-1. **Productization of data-science algorithms**. Machine-learning algorithms aren’t the most easily understood by stakeholders—it is my responsibility to present these in a simple, understandable manner. I create mockups and functioning prototypes to demonstrate practical applications for our team’s algorithms. Stakeholders can then realize their potential and pick them up for products. 
+1. **Productization of data-science algorithms**. Machine-learning algorithms aren’t the most easily understood by stakeholders—it is my responsibility to present these in a simple, understandable manner. I create mockups and functioning prototypes to demonstrate practical applications for our team’s algorithms. Stakeholders can then realize this potential and pick them up for products. 
 
     - Create mockups and functioning prototypes (HTML, CSS, JavaScript, Python) 
     - Present complex data-science algorithms/ideas to stakeholders in a simple, understandable manner
