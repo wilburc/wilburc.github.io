@@ -6,7 +6,8 @@ details: UX Design
 ---
 
 - Weekend project
-- It’s stupid — I already know that.
+- It’s stupid — I already know that
+- Pretty much a novelty product
 
 ## Background
 
@@ -21,6 +22,40 @@ Whether or not this behavior is annoying is up to you — some might find it ann
 But sometimes people really *do* want to complain about life’s frivolities.
 
 Meanwhile, the person being complained to is indifferent and defaults to generic feigned sympathy. 
+
+## Ask other millennials
+
+I know for a fact, that everyone complains every once in a while. While I know why *I* complain, you really never know what goes on in *other* people’s noodles. I asked some of my friends (college students, millennials, horrible people), why and how they complained. 
+
+### Why do you complain? 
+- “Because my life *sucks*”
+- “It feels good to just get it out there, ya know?”
+- “Sometimes I just have nothing to talk about, and it’s awkward. Everyone relates when I complain”
+- “Everyone else does it all the time, I just want to fit in”
+- “To receive sympathy, haha”
+
+### Why *don’t* you complain?
+- “It feels bad, my life isn’t the worst thing. It’s petty”
+- “I don’t want people to think I’m annoying“
+- “I want to complain so much, but I bet people find it annoying“
+
+### How do you complain?
+- “In-person, if I’m with someone. I wouldn’t go out of my way to vent in-person. Otherwise, online”
+- ”Definitely over messaging”
+- “Online”
+
+It was no surprise that people loved to complain–for good reason, too. It makes them feel better to get things off their chest, or just have someone sympathize with them. I then brought up my idea.
+
+### Have you ever tried complaining to like, an online bot?
+- “No.”
+
+It turns out, people didn’t. Online bots are typically programmed to generate a response for every line you send. But when complaining online, who types out an entire coherent thought before pressing enter? Based on my own experience/observations, when truly passionate/furious about something, people 
+
+type
+
+like
+
+*this*.
 
 ## Make a thing
 

@@ -38,12 +38,14 @@ As we had never used Anki software before, we downloaded the Anki desktop/mobile
 
 ### Surveys
 Access to all 400+ med-students was available through their school’s mailing list. 
-We sent out surveys to validate our assumptions and mission.
+We sent out surveys to validate our assumptions and mission, and discover additional pain-points.
 
 - All students use Anki cards
 - Most (90%+) students share cards with their peers\*, and aren’t picky about who they share with
+- However, they *are* picky about *what* they share
 - Students spend *a lot* of time studying
 - Students study on their laptops and iPads
+
 
 \**This was important to us, as a common argument was “isn’t most of the value in the making of the cards?”*
 
