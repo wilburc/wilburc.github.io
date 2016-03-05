@@ -5,7 +5,7 @@ title: Hey there.
 
 # Hello
 
-<img src=‘/files/IMG_2154.png’ data-action=‘zoom’\>
+<img src='/files/IMG_2154.png' data-action='zoom' />
 
 ## I’m Wilbur
 —yes, like the pig, or the airplane guy. I’m a designer who wants to make people’s lives easier. Interests include pleasant typography, musicals, and documentaries about food. Hobbies include discussing use of the word “hella,” making guacamole, and watching trashy reality TV.
