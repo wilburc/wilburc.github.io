@@ -15,7 +15,7 @@ I do what I do to help people—to create things they *want*. Noticing the dire 
 
 While originally from the Bay Area, I’m currently braving my first winter in Chicago, where I work with productization, visualization, and design within the Data Science team at [Centro][4].
 
-See you around,<br><i>-Wilbur Chen</i>
+See you around,<br><i>-Wilbur</i>
 
 [1]:	http:/broadcom.com
 [2]:	http://metronome-software.com
