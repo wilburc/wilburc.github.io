@@ -53,10 +53,10 @@ It was no surprise that people loved to complain–for good reason, too. It make
 - “Haha I’d think about it, if there were one to complain to.”
 - “Never really thought about it.”
 
- We tried complaining to some existing bots, such as <a href='http://www.cleverbot.com/'>CleverBot</a> and <a href='https://www.chatbots.org/chatbot/a.l.i.c.e/'>A.L.I.C.E.</a>. It became apparent that they were not suitable for complaining, given our existing learnings. When complained to, they offered no sympathy, but rather asked questions. Also, online bots are typically programmed to generate a response for every line you send. But when complaining online, who types out an entire coherent thought before pressing enter? Based on my own experience and observations, when truly passionate/furious about something, people 
-  type
-  like
-  *this*.
+ We tried complaining to some existing bots, such as <a href='http://www.cleverbot.com/'>CleverBot</a> and <a href='https://www.chatbots.org/chatbot/a.l.i.c.e/'>A.L.I.C.E.</a>. It became apparent that they were not suitable for complaining, given our existing learnings. When complained to, they offered no sympathy, but rather asked questions. Also, online bots are typically programmed to generate a response for every line you send. But when complaining online, who types out an entire coherent thought before pressing enter? Based on my own experience and observations, when truly passionate/furious about something, people <br>
+type<br>
+like<br>
+*this*.
 
 
 ## Make a thing
