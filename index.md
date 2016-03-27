@@ -17,7 +17,7 @@ While originally from the Bay Area, I’m currently braving my first winter in C
 
 See you around,<br><i>-Wilbur</i>
 
-[1]:	http:/broadcom.com
+[1]:	http://broadcom.com
 [2]:	http://metronome-software.com
 [3]:	http://uci.edu
 [4]:	http://centro.net
