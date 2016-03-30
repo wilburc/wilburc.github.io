@@ -1,7 +1,7 @@
 ---
 layout: writeup
 title: ugh.
-intro: Satirizing the relationship between millenials and complaining.
+intro: Satirizing the relationship between millennials and complaining.
 details: UX Design
 ---
 
@@ -27,7 +27,7 @@ Meanwhile, the person being complained to is indifferent and defaults to generic
 
 I know for a fact, that everyone complains every once in a while. While I know why *I* complain, you really never know what goes on in *other* people’s noodles. I asked some of my friends (college students, millennials, horrible people), why and how they complained. 
 
-### Why do you complain? 
+### Why do you complain?
 - “Because my life *sucks*”
 - “It feels good to just get it out there, ya know?”
 - “Sometimes I just have nothing to talk about, and it’s awkward. Everyone relates when I complain”
@@ -93,7 +93,7 @@ In terms of actual security, I don’t know much about how privacy and secure st
 
 ### Promoting confidentiality and disclosure
 
-One of my favorite movies is the classic, [*The Princess Bride (1987)*](http://www.imdb.com/title/tt0093779/). Something quite unique about the movie is how the main story is “framed” by the scenes from Fred Savage’s character’s bedroom. While they may seem unnecessary, they help the viewer suspend disbelief, immersing themselves in this fantastic world. Similarly, a confessional in a church’s walls, apart from creating anonymity, isolates the subject in a world that they enter and then leave, framing this experience and removing the actual confession from the rest of their life.
+One of my favorite movies is the classic, [*The Princess Bride (1987)*][1]. Something quite unique about the movie is how the main story is “framed” by the scenes from Fred Savage’s character’s bedroom. While they may seem unnecessary, they help the viewer suspend disbelief, immersing themselves in this fantastic world. Similarly, a confessional in a church’s walls, apart from creating anonymity, isolates the subject in a world that they enter and then leave, framing this experience and removing the actual confession from the rest of their life.
 
 To emulate these experiences, I simply created a separate landing page and a conclusion page. The goal was to represent the chat as a separated experience, removing the hesitation and judgments of real life — the user is temporarily freed from their world. 
 
@@ -144,3 +144,4 @@ You can vent to “SympathyBot” (name not final) <a href='/ugh' target='_blank
 
 
 
+[1]:	http://www.imdb.com/title/tt0093779/
