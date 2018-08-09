@@ -32,3 +32,5 @@ if __name__ == "__main__":
         run(port=int(argv[1]))
     else:
         run()
+
+return 'asdf'
