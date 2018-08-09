@@ -1,3 +1,3 @@
 <?php
-	echo "Asdf"
+	echo 'hello ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
